@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "upload.js"
+      :pointmax 341
+      :fsize 351
+      :lastmodtime '(24534 22633 812112 40000)
+      :unmatched-syntax '((PAREN_BLOCK 318 . 340) (VARIABLE 284 . 290) (PAREN_BLOCK 308 . 318) (VARIABLE 226 . 231) (VARIABLE 232 . 239) (PAREN_BLOCK 252 . 281) (VARIABLE 136 . 141) (VARIABLE 142 . 152) (PAREN_BLOCK 162 . 224) (PAREN_BLOCK 123 . 133) (COMMA 101 . 102) (PAREN_BLOCK 95 . 101) (COMMA 73 . 74) (VARIABLE 51 . 55) (PAREN_BLOCK 65 . 73))))
+  :file "!home!axius!server_prod!server!hooks!upload!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

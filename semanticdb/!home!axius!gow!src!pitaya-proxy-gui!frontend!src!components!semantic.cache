@@ -1,0 +1,478 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("export default {
+  props: ['value', 'port'],
+  data(){
+    return {
+      proxyPort: this.port,
+      valid: false,
+      dialogVisible: false,
+      portRules: [
+	v => !!v || 'Port is required'
+      ]
+    }
+  },
+  watch: {
+    dialogVisible(visible) {
+      if (visible) {
+        // Here you would put something to happen when dialog opens up
+        console.log(\"Dialog was opened!\")
+      } else {
+        console.log(\"Dialog was closed!\")
+      }
+    },
+    port(current){
+      this.proxyPort = current;
+    }
+  },
+  methods:{
+    onSaveClicked: function() {
+      var valid = this.$refs.form.validate();
+      if(valid) {
+	var settings = {proxyPort: this.proxyPort}
+	this.$emit('updated', settings);
+	this.$emit('input')
+      }
+    },
+    onClose: function(){
+      this.proxyPort = this.port;
+      this.$emit('input')
+    }
+  }
+}" section nil nil [935 1795]))          
+      :file "Settings.vue"
+      :pointmax 1795
+      :fsize 1794
+      :lastmodtime '(24863 48497 249438 679000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("import ProtoParse from 'proto-parse';
+var protobuf = require(\"protobufjs\");
+
+var root = new protobuf.Root();
+root.fetch = function(fileData, _, callback) {
+  callback(null, fileData)
+};
+
+const getProtoInfo = function(parsedProto) {
+    var ret = {};
+    if(parsedProto.content){
+        parsedProto.content.forEach((comp)=>{
+            if(comp.type == 'message'){
+                ret[comp.name] = {...comp.content};
+            }
+        });
+    }
+    return ret;
+}
+
+const protoFilterStr = function(msg){
+    var ret = '';
+    if(msg.indexOf('Args') >= 0){
+        ret = msg.split('Args')[0];
+    } else if(msg.indexOf('Response')) {
+        ret = msg.split('Response')[0];
+    }
+    return ret;
+}
+
+export default {
+    props: ['value'],
+    data() {
+        return {
+            protoFilter: '',
+            protoInfo: null,
+            selectedMsg: null,
+            radioGroup: 1,
+            protoLoaded: false,
+            protoFolder: null
+        }
+    },
+    computed: {
+        show: {
+            get () {
+                return this.value
+            },
+            set (value) {
+                this.$emit('input', value)
+            }
+        }
+    },
+    mounted() {
+        setTimeout(async()=>{
+            var importRet = await window.backend.PitayaConnection.ImportProto();
+            console.log(\"::PROTO_IMPORT_OK::\", importRet);
+            alert(importRet)
+        },10)
+    },
+    methods: {
+        confirm: function() {
+            console.log(this.radioGroup);
+            var msg = Object.keys(this.protoInfo)[this.radioGroup];
+            console.log(\":::MSG__::\", msg, this.protoInfo[msg][0]);
+            var args = [];
+            
+            for(var i = 0; i < this.protoInfo[msg].length; i++){
+                var arg = this.protoInfo[msg][i];
+                args.push({
+                    name: arg.name,
+                    type: arg.typename,
+                    value: null
+                })
+            }
+            var protoInfo = {
+                filter: this.protoFilter,
+                msg,
+                args
+            }
+            this.$emit('proto', protoInfo)
+            this.$emit('input', false)
+        },
+        addProtoFilter: function(protoInfo, msg) {
+            console.log(\":::MSG__OK::\", msg, protoInfo[msg], protoInfo[msg].length);
+            var args = [];
+            var keys = Object.keys(protoInfo[msg])
+            for(var i = 0; i < keys.length; i++){
+                console.log(\":::ARGS_1::\", args)
+                var key = keys[i]
+                var arg = protoInfo[msg][key];
+                args.push({
+                    name: arg.name,
+                    type: arg.typename,
+                    value: null
+                })
+                console.log(\":::ARGS_2::\", args)
+            }
+            var filterStr = protoFilterStr(msg);
+            if(filterStr != ''){
+                var protoFilter = {
+                    filter: filterStr.toLowerCase(),
+                    msg,
+                    args
+                }
+                console.log(\"::PROTO_FILTER::\", protoFilter);
+                this.$emit('proto', protoFilter)
+            }
+            //this.$emit('input', false)
+        },
+        loadProtoDir: async function() {
+            var protoDir = await window.backend.PitayaConnection.ImportProto();
+            this.protoFolder = protoDir.directory;
+            var files = protoDir.files;
+            this.protoInfo = {};
+            var protoTypes = {};
+            for(var i = 0; i< files.length; i++){
+                var file = files[i];
+                try{
+                    const protoTitle = file.name.split('.')[0];
+                    var result = atob(file.content);
+                    var parsedProto = ProtoParse(result);
+                    var protoInfo = getProtoInfo(parsedProto);
+                    Object.keys(protoInfo).forEach((msg)=>{
+                        this.addProtoFilter(protoInfo, msg);
+                    });
+                    if(Object.keys(protoInfo).length > 0){
+                        protoTypes[protoTitle] = root(result);
+                        this.protoInfo[protoTitle] = protoInfo;
+                    }
+                } catch (err) {
+                    console.log(\"::Could not parse proto file\", err);
+                }
+            }
+            console.log('::COMPLETED::', protoTypes);
+            this.protoLoaded = true;
+            this.$forceUpdate();
+        }
+    }
+}
+
+//Handle styles" section nil nil [1080 5567]))          
+      :file "ProtoFilter.vue"
+      :pointmax 5567
+      :fsize 5625
+      :lastmodtime '(24921 58366 763217 222000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("Messages" section nil nil [78 1747])
+            ("import moment from 'moment'
+import ProtoFilter from './ProtoFilter'
+
+function getIconForMessage(msg){
+    var ret = {};
+    if(msg.type == \"SENT\") {
+        ret.name = \"mdi-arrow-up-thick\";
+        ret.color = \"green\";
+    } else {
+        ret.name = \"mdi-arrow-down-thick\";
+        ret.color = \"red\"
+    }
+    return ret
+}
+
+const NULL_STR = String.fromCharCode(0);
+function splitArgs(msg){
+    var parsedStr = \"\";
+    for (var i = 0; i < msg.length; i++) {
+        if(msg.charCodeAt(i) <= 31){
+            parsedStr += NULL_STR;
+        } else {
+            parsedStr += msg[i];
+        }
+    }
+    return parsedStr.split(NULL_STR).filter(c=>c.length > 0)
+
+}
+
+function handleMsg(msg){
+    if (msg.type && msg.content && msg.content.length < 200 && msg.content.length > 5) {
+        msg.date = (new Date()).toISOString();
+        msg.icon = getIconForMessage(msg);
+        console.log(\"::MSG_CONTENT_1_::\", msg.content);
+        var msgArr = msg.content.split(\"\\u0000\");
+        msg.content = msgArr[msgArr.length - 1] || msg.content;
+        if(msg.content && this.protoFilters.length > 0){
+            msg.content = msg.content.slice(2);
+            console.log(\"::MSG_CONTENT_2_::\", msg.content);
+            console.log(\"::START::\")
+            for(var i = 0; i < this.protoFilters.length; i++){
+                var protoFilter = this.protoFilters[i];
+                var filter = protoFilter.filter
+                console.log(\"::FILTER_AND_MESSAGE::\", filter, msg.content, protoFilter);
+                if(filter != \"\" && msg.content.toLowerCase().indexOf(filter) >= 0){
+                    console.log(\"::MSG_CONTENT_BEFORE::::\", msg.content, protoFilter);
+                    var msgSpl = splitArgs(msg.content);
+                    var callArgs = msgSpl.slice(1);
+                    var argsObj = {};
+                    for(var j = 0; j < callArgs.length; j++){
+                        var argName = j;
+                        console.log(protoFilter.args)
+                        if(j < protoFilter.args.length){
+                            argName = protoFilter.args[j].name;
+                        }
+                        argsObj[argName] = callArgs[j];
+                    }
+                    var content = {
+                        call: msgSpl[0],
+                        proto: protoFilter.msg,
+                        args: argsObj
+                    }
+                    console.log(\"::CONTENT_OBJ\", content);
+                    console.log(\"::PARSED_OBJ::\", JSON.stringify(content));
+                    msg.content = JSON.stringify(content)
+                    break;
+                }
+            }
+            console.log(\"::END::\")
+        }
+      console.log(\"::MSG_LENGTH::\", msg.content, msg.content.length);
+      if(msg.content && msg.content.length > 5) {
+	this.messages.push(msg);
+      }
+    }
+}
+var updateTimeout = null;
+export default {
+    props: ['pMsgFilter'],
+    data () {
+        return {
+            messages: [],
+            msgFilter: this.pMsgFilter,
+            drawer: true,
+            currentMsg: null,
+            tab: null,
+            showAddProtoFilter: false,
+            protoFilters: []
+        }
+    },
+    components: {
+        ProtoFilter
+    },
+    mounted() {
+        this.$nextTick(() => {
+            //var f = handleMsg.bind(this);
+            window.wails.Events.On(\"PitayaConnection::MSG_SENT\", handleMsg.bind(this));
+            window.wails.Events.On(\"PitayaConnection::MSG_RECEIVED\", handleMsg.bind(this));
+            /*
+            setInterval(()=>{
+                handleMsg.bind(this)({
+                    type: \"SENT\",
+                    content: \"msg.call.done arg1 arg2\"
+                });
+            }, 2000);
+            */
+        })
+    },
+    methods: {
+        handleRowClick: function(clickedMsg){
+            try{
+                this.currentMsg = JSON.parse(clickedMsg.content);
+            } catch (err) {
+                try{
+                    this.currentMsg = JSON.parse(clickedMsg.content.substring(1));
+                }catch(err){
+                    console.log(\"::Could not load current msg::\");
+                }
+            }
+        },
+        onProtoFilter: function(filter){
+            console.log(\"::PROTO_FILTER::\", filter);
+            this.protoFilters = [...this.protoFilters, filter];
+        }
+    },
+    filters: {
+        formatDate: function(value){
+      if (value) {
+        return moment(String(value)).format('MM/DD/YYYY HH:mm:ss.SSS')
+      }
+    }
+  },
+  watch: {
+    msgFilter(currentFilter) {
+      clearTimeout(updateTimeout);
+      updateTimeout = setTimeout(()=>{
+        var settings = {messageConfig: [{filter: currentFilter}]}
+        this.$emit('updated', settings);
+      }, 2000)
+    },
+    pMsgFilter(cur, prev){
+      console.log(\"::MSG_PROPS_CHANGED::\", this.pMsgFilter, cur, prev);
+      this.msgFilter = this.pMsgFilter
+    }
+  }
+}" section nil nil [1747 6701]))          
+      :file "MessagesList.vue"
+      :pointmax 6701
+      :fsize 9105
+      :lastmodtime '(24921 58366 763217 222000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("Connection" section nil nil [51 2841])
+            ("const ERROR_MSGS = {
+  \"ERR_CONN_FAILED\": \"Could not connect to pitaya server\",
+  \"ERR_CONN_LOST\": \"Connection closed\"
+}
+
+var base64Data = async function(fileData){
+  return new Promise((resolve, reject)=>{
+    const reader = new FileReader();
+    reader.readAsDataURL(fileData);
+    reader.onload = () => {
+      var result = reader.result.split(';')[1].split(',')[1];
+      resolve(result)
+    };
+    reader.onerror = error => reject(error);
+  });
+}
+
+var updateTimeout = null;
+
+export default {
+  props: ['port', 'pUrl'],
+  data() {
+    return {
+      acceptor: 'tcp-acceptor',
+      serverAddress: this.pUrl,
+      connected: false,
+      errorAlert: false,
+      localIp: \"\",
+      ssl: {
+        enabled: false,
+        serverCert: false,
+        serverKey: false,
+        clientCert: false,
+        clientKey: false
+      },
+      
+      errorText: 'Connection Error'
+    }
+  },
+  methods: {
+    connectToServer: async function(){
+      var result = await window.backend.PitayaConnection.Connect(this.serverAddress, this.acceptor, this.port, this.ssl.enabled);
+      this.connected = true;
+      console.log(result);
+    },
+    disconnect: async function(){
+      await window.backend.PitayaConnection.Disconnect();
+      this.connected = false;
+    },
+    canConnect: function(){
+      var enabled = false;
+      var validAddress = this.serverAddress && this.serverAddress.length > 5
+          && this.serverAddress.split(\":\")[1] && this.serverAddress.split(\":\")[1].length > 0;
+      enabled = validAddress;
+      if(this.ssl.enabled && enabled){
+        enabled = this.ssl.clientCert && this.ssl.clientKey
+          && this.ssl.serverCert && this.ssl.serverKey;
+      }
+      return enabled;
+    },
+    sslUpload: async function(fileName, dataKey, file){
+      try{
+        var base64 = await base64Data(file);
+        await window.backend.saveSslFile(fileName, base64);
+        this.ssl[dataKey] = true;
+      } catch(err){
+        console.log(\"::KEY_UPLOAD_ERR::\", dataKey, err);
+        this.ssl[dataKey] = false;
+      }
+    }
+  },
+  mounted() {
+    this.$nextTick(function () {
+      window.wails.Events.On(\"MSG_SENT\", msg => {
+        if (msg) {
+          console.log(\"::RECEIVED_MSG_FROM_GO::\", msg);
+        }
+      });
+      window.wails.Events.On(\"PitayaConnection::LOCAL_IP\", localIp => {
+        if (localIp) {
+          this.localIp = localIp;
+        }
+      });
+      window.wails.Events.On(\"PitayaConnection::ERROR\", msg => {
+        if (msg) {
+          console.log(\"::RECEIVED_ERROR_FROM_GO::\", msg);
+          var errorMsg = ERROR_MSGS[msg.content] || 'Could not connect';
+          this.errorText = errorMsg;
+          this.errorAlert = true;
+        }
+        
+        this.connected = false;
+      });
+    })
+  },
+  watch: {
+    serverAddress(currentUrl) {
+      clearTimeout(updateTimeout);
+      updateTimeout = setTimeout(()=>{
+        var settings = {url: currentUrl}
+        this.$emit('updated', settings);
+      }, 2000)
+    },
+    pUrl(cur, prev){
+      console.log(\"::MSG_PROPS_CHANGED::\", this.pMsgFilter, cur, prev);
+      this.serverAddress = this.pUrl
+    }
+  }
+}" section nil nil [2841 6204]))          
+      :file "Connection.vue"
+      :pointmax 6204
+      :fsize 6203
+      :lastmodtime '(24921 61520 452527 640000)
+      :unmatched-syntax nil))
+  :file "!home!axius!gow!src!pitaya-proxy-gui!frontend!src!components!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,26 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("SessionManager" variable nil nil [139 158])
+            ("handleConnections" function (:arguments 
+              ( ("ws" variable nil (reparse-symbol FormalParameterList) [306 308]))              ) nil [279 1362])
+            ("handleNewMessageFromPeer" function (:arguments 
+              ( ("message" variable nil (reparse-symbol FormalParameterList) [1398 1405])
+                ("sessionId" variable nil (reparse-symbol FormalParameterList) [1407 1416])
+                ("peerId" variable nil (reparse-symbol FormalParameterList) [1418 1424]))              ) nil [1364 1645])
+            ("handleNewMessageFromAgent" function (:arguments 
+              ( ("rawMsg" variable nil (reparse-symbol FormalParameterList) [1682 1688])
+                ("sessionId" variable nil (reparse-symbol FormalParameterList) [1690 1699]))              ) nil [1647 1911]))          
+      :file "websockets.js"
+      :pointmax 1912
+      :fsize 1911
+      :lastmodtime '(24869 15956 90361 844000)
+      :unmatched-syntax nil))
+  :file "!home!axius!sh-tele-uti!proxy!server!src!api!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

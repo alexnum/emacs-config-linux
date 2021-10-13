@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "FileSaver.js"
+      :pointmax 5846
+      :fsize 5845
+      :lastmodtime '(24573 50784 935501 753000)
+      :unmatched-syntax '((CLOSE_PARENTHESIS 5843 . 5844) (PAREN_BLOCK 275 . 5843) (PAREN_BLOCK 1 . 275))))
+  :file "!home!axius!client_prod!bower_components!file-saver!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

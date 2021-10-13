@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "nuxt.config.js"
+      :pointmax 2902
+      :fsize 2901
+      :lastmodtime '(24880 43869 576146 327000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "env.js"
+      :pointmax 122
+      :fsize 121
+      :lastmodtime '(24912 41785 764002 224000)
+      :unmatched-syntax nil))
+  :file "!home!axius!Workspace!euf!eufrauzino-front!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

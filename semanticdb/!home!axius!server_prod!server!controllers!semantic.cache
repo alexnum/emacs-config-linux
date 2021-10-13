@@ -1,0 +1,244 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("docFileUpload" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [735 738])
+                ("res" variable nil (reparse-symbol FormalParameterList) [740 743]))              ) nil [712 1578])
+            ("get" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [1600 1603])
+                ("res" variable nil (reparse-symbol FormalParameterList) [1605 1608]))              ) nil [1586 2576])
+            ("groupSalaries" function (:arguments 
+              ( ("salaries" variable nil (reparse-symbol FormalParameterList) [2602 2610]))              ) nil [2578 3566])
+            ("getCSV" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [3591 3594])
+                ("res" variable nil (reparse-symbol FormalParameterList) [3596 3599]))              ) nil [3574 4603])
+            ("remove" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [4628 4631])
+                ("res" variable nil (reparse-symbol FormalParameterList) [4633 4636]))              ) nil [4611 4815])
+            ("add" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [4837 4840])
+                ("res" variable nil (reparse-symbol FormalParameterList) [4842 4845]))              ) nil [4823 5181]))          
+      :file "salary.js"
+      :pointmax 5181
+      :fsize 5180
+      :lastmodtime '(24534 22633 812112 40000)
+      :unmatched-syntax '((VARIABLE 272 . 277) (VARIABLE 278 . 284) (VARIABLE 306 . 311) (VARIABLE 312 . 320) (VARIABLE 345 . 352) (FUNCTION 363 . 371) (PAREN_BLOCK 372 . 374) (DOT 264 . 265) (VARIABLE 228 . 233) (VARIABLE 234 . 242) (PAREN_BLOCK 252 . 264) (VARIABLE 170 . 175) (VARIABLE 176 . 184) (PAREN_BLOCK 194 . 226) (VARIABLE 136 . 141) (VARIABLE 142 . 148) (PAREN_BLOCK 158 . 168) (VARIABLE 99 . 104) (VARIABLE 105 . 111) (PAREN_BLOCK 121 . 134) (VAR 71 . 74) (PAREN_BLOCK 89 . 97) (VARIABLE 51 . 53) (PAREN_BLOCK 63 . 69)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("saveDocument" function (:arguments 
+              ( ("fieldname" variable nil (reparse-symbol FormalParameterList) [2858 2867])
+                ("template" variable nil (reparse-symbol FormalParameterList) [2869 2877])
+                ("templateOptions" variable nil (reparse-symbol FormalParameterList) [2879 2894]))              ) nil [2835 3307])
+            ("generateDocument" function (:arguments 
+              ( ("fieldname" variable nil (reparse-symbol FormalParameterList) [3336 3345])
+                ("template" variable nil (reparse-symbol FormalParameterList) [3347 3355])
+                ("templateOptions" variable nil (reparse-symbol FormalParameterList) [3357 3372]))              ) nil [3309 3951])
+            ("deleteFiles" function (:arguments 
+              ( ("ids" variable nil (reparse-symbol FormalParameterList) [3975 3978]))              ) nil [3953 4493])
+            ("countProcess" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [5529 5532])
+                ("res" variable nil (reparse-symbol FormalParameterList) [5534 5537]))              ) nil [5507 5717])
+            ("getUserNames" function (:arguments 
+              ( ("userIds" variable nil (reparse-symbol FormalParameterList) [5741 5748]))              ) nil [5719 6335])
+            ("getHistory" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [6358 6361])
+                ("res" variable nil (reparse-symbol FormalParameterList) [6363 6366]))              ) nil [6338 6851])
+            ("addHistoryNote" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [6877 6880])
+                ("res" variable nil (reparse-symbol FormalParameterList) [6882 6885]))              ) nil [6853 7912])
+            ("statisticsCount" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [7940 7943])
+                ("res" variable nil (reparse-symbol FormalParameterList) [7945 7948]))              ) nil [7914 8349])
+            ("addUsers" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [8375 8378])
+                ("res" variable nil (reparse-symbol FormalParameterList) [8380 8383]))              ) nil [8357 8747])
+            ("updateApproval" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [8779 8782])
+                ("res" variable nil (reparse-symbol FormalParameterList) [8784 8787]))              ) nil [8755 9593])
+            ("removeUsers" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [9623 9626])
+                ("res" variable nil (reparse-symbol FormalParameterList) [9628 9631]))              ) nil [9602 10211])
+            ("create" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [10230 10233])
+                ("res" variable nil (reparse-symbol FormalParameterList) [10235 10238]))              ) nil [10213 14638])
+            ("get" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [14660 14663])
+                ("res" variable nil (reparse-symbol FormalParameterList) [14665 14668]))              ) nil [14646 19697])
+            ("getByStatus" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [19721 19724])
+                ("res" variable nil (reparse-symbol FormalParameterList) [19726 19729]))              ) nil [19699 21646])
+            ("allSec" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [21670 21673])
+                ("res" variable nil (reparse-symbol FormalParameterList) [21675 21678]))              ) nil [21654 24298])
+            ("all" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [24320 24323])
+                ("res" variable nil (reparse-symbol FormalParameterList) [24325 24328]))              ) nil [24306 28711])
+            ("createHistoryEntry" function (:arguments 
+              ( ("oldProcess" variable nil (reparse-symbol FormalParameterList) [28741 28751])
+                ("newProcess" variable nil (reparse-symbol FormalParameterList) [28753 28763])
+                ("authorId" variable nil (reparse-symbol FormalParameterList) [28765 28773]))              ) nil [28713 29520])
+            ("update" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [29539 29542])
+                ("res" variable nil (reparse-symbol FormalParameterList) [29544 29547]))              ) nil [29522 33737])
+            ("destroy" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [33757 33760])
+                ("res" variable nil (reparse-symbol FormalParameterList) [33762 33765]))              ) nil [33739 34043]))          
+      :file "process.js"
+      :pointmax 34044
+      :fsize 34046
+      :lastmodtime '(24862 43846 199974 30000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getOfficeGrouped" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [3082 3085])
+                ("res" variable nil (reparse-symbol FormalParameterList) [3087 3090]))              ) nil [3056 4034])
+            ("getProcessByInactivity" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [4074 4077])
+                ("res" variable nil (reparse-symbol FormalParameterList) [4079 4082]))              ) nil [4042 4925])
+            ("getProcessByStatus" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [4962 4965])
+                ("res" variable nil (reparse-symbol FormalParameterList) [4967 4970]))              ) nil [4934 6056])
+            ("getDefaultAdv" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [6087 6090])
+                ("res" variable nil (reparse-symbol FormalParameterList) [6092 6095]))              ) nil [6064 6349])
+            ("getProcuracao" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [6380 6383])
+                ("res" variable nil (reparse-symbol FormalParameterList) [6385 6388]))              ) nil [6357 7632])
+            ("getOfficeAll" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [7662 7665])
+                ("res" variable nil (reparse-symbol FormalParameterList) [7667 7670]))              ) nil [7640 8608])
+            ("getProcessAll" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [8639 8642])
+                ("res" variable nil (reparse-symbol FormalParameterList) [8644 8647]))              ) nil [8616 9737])
+            ("getProcessStatus" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [9771 9774])
+                ("res" variable nil (reparse-symbol FormalParameterList) [9776 9779]))              ) nil [9745 10872])
+            ("getProcessStatusByType" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [10912 10915])
+                ("res" variable nil (reparse-symbol FormalParameterList) [10917 10920]))              ) nil [10880 12273])
+            ("getProcessGrouped" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [12308 12311])
+                ("res" variable nil (reparse-symbol FormalParameterList) [12313 12316]))              ) nil [12281 13443])
+            ("create" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [13466 13469])
+                ("res" variable nil (reparse-symbol FormalParameterList) [13471 13474]))              ) nil [13449 14049])
+            ("get" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [14065 14068])
+                ("res" variable nil (reparse-symbol FormalParameterList) [14070 14073]))              ) nil [14051 14388])
+            ("all" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [14404 14407])
+                ("res" variable nil (reparse-symbol FormalParameterList) [14409 14412]))              ) nil [14390 14839])
+            ("update" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [14858 14861])
+                ("res" variable nil (reparse-symbol FormalParameterList) [14863 14866]))              ) nil [14841 15649])
+            ("destroy" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [15669 15672])
+                ("res" variable nil (reparse-symbol FormalParameterList) [15674 15677]))              ) nil [15651 16318])
+            ("getProcuracaoEmployes" function (:arguments 
+              ( ("employeeIds" variable nil (reparse-symbol FormalParameterList) [16357 16368]))              ) nil [16326 16822]))          
+      :file "report.js"
+      :pointmax 16823
+      :fsize 16826
+      :lastmodtime '(24927 5325 308274 169000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getAll" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [1455 1458])
+                ("res" variable nil (reparse-symbol FormalParameterList) [1460 1463]))              ) nil [1439 1898])
+            ("addUserPayment" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [1930 1933])
+                ("res" variable nil (reparse-symbol FormalParameterList) [1935 1938]))              ) nil [1906 2692])
+            ("remove" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [2716 2719])
+                ("res" variable nil (reparse-symbol FormalParameterList) [2721 2724]))              ) nil [2700 3017])
+            ("create" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [3042 3045])
+                ("res" variable nil (reparse-symbol FormalParameterList) [3047 3050]))              ) nil [3025 3821])
+            ("allUser" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [3847 3850])
+                ("res" variable nil (reparse-symbol FormalParameterList) [3852 3855]))              ) nil [3829 4350])
+            ("generateReport" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [4382 4385])
+                ("res" variable nil (reparse-symbol FormalParameterList) [4387 4390]))              ) nil [4358 5926])
+            ("generatePayrollRecipt" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [5965 5968])
+                ("res" variable nil (reparse-symbol FormalParameterList) [5970 5973]))              ) nil [5934 7435])
+            ("all" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [7457 7460])
+                ("res" variable nil (reparse-symbol FormalParameterList) [7462 7465]))              ) nil [7443 7957])
+            ("getPayrollInfo" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [7989 7992])
+                ("res" variable nil (reparse-symbol FormalParameterList) [7994 7997]))              ) nil [7965 8935])
+            ("generatePayrollFromInfo" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [8976 8979])
+                ("res" variable nil (reparse-symbol FormalParameterList) [8981 8984]))              ) nil [8943 9693]))          
+      :file "payment.js"
+      :pointmax 9694
+      :fsize 9693
+      :lastmodtime '(24718 57806 701965 426000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getReport" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [769 772])
+                ("res" variable nil (reparse-symbol FormalParameterList) [774 777]))              ) nil [750 1878])
+            ("getProcessCall" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [1910 1913])
+                ("res" variable nil (reparse-symbol FormalParameterList) [1915 1918]))              ) nil [1886 2248])
+            ("updateProcessCall" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [2283 2286])
+                ("res" variable nil (reparse-symbol FormalParameterList) [2288 2291]))              ) nil [2256 3143])
+            ("all" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [3164 3167])
+                ("res" variable nil (reparse-symbol FormalParameterList) [3169 3172]))              ) nil [3151 6497])
+            ("getProcessCallForMonth" function (:arguments 
+              ( ("processId" variable nil (reparse-symbol FormalParameterList) [6537 6546])
+                ("referenceDate" variable nil (reparse-symbol FormalParameterList) [6548 6561])
+                ("insert" variable nil (reparse-symbol FormalParameterList) [6563 6569]))              ) nil [6505 7094]))          
+      :file "processcall.js"
+      :pointmax 7095
+      :fsize 7295
+      :lastmodtime '(24808 23010 719376 183000)
+      :unmatched-syntax '((SEMICOLON 654 . 655) (VARIABLE 657 . 662) (VARIABLE 663 . 677) (PAREN_BLOCK 689 . 741) (VARIABLE 345 . 352) (FUNCTION 363 . 371) (PAREN_BLOCK 372 . 374) (VARIABLE 210 . 215) (VARIABLE 216 . 227) (VARIABLE 254 . 259) (VARIABLE 260 . 271) (VARIABLE 292 . 297) (VARIABLE 298 . 307) (PAREN_BLOCK 317 . 342) (PAREN_BLOCK 197 . 208) (COMMA 175 . 176) (PAREN_BLOCK 161 . 175) (COMMA 133 . 134) (PAREN_BLOCK 127 . 133) (COMMA 107 . 108) (VARIABLE 79 . 84) (VARIABLE 85 . 89) (PAREN_BLOCK 99 . 107) (VARIABLE 48 . 54) (PAREN_BLOCK 64 . 77)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getReport" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [820 823])
+                ("res" variable nil (reparse-symbol FormalParameterList) [825 828]))              ) nil [801 2056])
+            ("getBirthdayReminder" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [2093 2096])
+                ("res" variable nil (reparse-symbol FormalParameterList) [2098 2101]))              ) nil [2064 2429])
+            ("updateBirthdayReminder" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [2469 2472])
+                ("res" variable nil (reparse-symbol FormalParameterList) [2474 2477]))              ) nil [2437 2992])
+            ("all" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [3013 3016])
+                ("res" variable nil (reparse-symbol FormalParameterList) [3018 3021]))              ) nil [3000 3500])
+            ("getBdayForMonth" function (:arguments 
+              ( ("customerId" variable nil (reparse-symbol FormalParameterList) [3533 3543])
+                ("referenceDate" variable nil (reparse-symbol FormalParameterList) [3545 3558]))              ) nil [3508 4044])
+            ("getFirstAndLastDateFromMonth" function (:arguments 
+              ( ("monthReferenceDate" variable nil (reparse-symbol FormalParameterList) [4084 4102]))              ) nil [4046 4390])
+            ("lastDayInMonth" function (:arguments 
+              ( ("iMonth" variable nil (reparse-symbol FormalParameterList) [4416 4422])
+                ("iYear" variable nil (reparse-symbol FormalParameterList) [4424 4429]))              ) nil [4392 4489]))          
+      :file "birthdayreminder.js"
+      :pointmax 4490
+      :fsize 5314
+      :lastmodtime '(24804 15060 826322 746000)
+      :unmatched-syntax nil))
+  :file "!home!axius!server_prod!server!controllers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,37 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("Não há exames disponíveis" section nil nil [176 223])
+            ("Não há exames disponíveis" section nil nil [223 275])
+            ("Não há exames disponíveis" section nil nil [275 352])
+            ("Não há exames disponíveis" section nil nil [352 2013]))          
+      :file "documents.html"
+      :pointmax 2013
+      :fsize 2015
+      :lastmodtime '(24644 59685 832684 117000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("pdfPreviewLoaded" variable (:default-value "false") nil [196 225])
+            ("requestFile" function (:arguments 
+              ( ("docId" variable nil (reparse-symbol FormalParameterList) [248 253]))              ) nil [227 2144])
+            ("requestDocuments" function nil nil [2146 3325])
+            ("showNoExamsAvailable" function nil nil [3327 3456])
+            ("insertDocItem" function (:arguments 
+              ( ("doc" variable nil (reparse-symbol FormalParameterList) [3481 3484]))              ) nil [3458 4218])
+            ("updateDocInfo" function (:arguments 
+              ( ("docId" variable nil (reparse-symbol FormalParameterList) [4243 4248]))              ) nil [4220 4761]))          
+      :file "documents.js"
+      :pointmax 5365
+      :fsize 5521
+      :lastmodtime '(24657 5976 83106 280000)
+      :unmatched-syntax '((PAREN_BLOCK 4780 . 5363) (DOT 4774 . 4775) (VARIABLE 4763 . 4764) (PAREN_BLOCK 4764 . 4774) (PAREN_BLOCK 143 . 148) (DOT 138 . 139) (PAREN_BLOCK 131 . 138) (DOT 125 . 126) (PAREN_BLOCK 120 . 125) (PAREN_BLOCK 4780 . 5335) (DOT 4774 . 4775) (VARIABLE 4763 . 4764) (PAREN_BLOCK 4764 . 4774) (PAREN_BLOCK 143 . 148) (DOT 138 . 139) (PAREN_BLOCK 131 . 138) (DOT 125 . 126) (PAREN_BLOCK 120 . 125))))
+  :file "!home!axius!sh-tele-uti!src!remote-visit-app!pages!documents!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,485 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :file "util.h"
+      :fsize 19988
+      :lastmodtime '(24539 57052 822978 82000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("servoi/servoi.h" include nil nil [1 27])
+            ("chrono" include (:system-flag t) nil [29 46])
+            ("memory" include (:system-flag t) nil [47 64])
+            ("stdexcept" include (:system-flag t) nil [65 85])
+            ("string" include (:system-flag t) nil [86 103])
+            ("vector" include (:system-flag t) nil [104 121])
+            ("alarm.h" include nil nil [123 141])
+            ("breath.h" include nil nil [142 161])
+            ("commandport.h" include nil nil [162 186])
+            ("curve.h" include nil nil [187 205])
+            ("schema.h" include nil nil [206 225])
+            ("setting.h" include nil nil [226 246])
+            ("util.h" include nil nil [247 264])
+            ("servoi" type
+               (:members 
+                  ( ("GetLogConfig" function (:type ("LogConfig" type (:type "class") nil nil)) (reparse-symbol namespacesubparts) [421 499])
+                    ("Impl" type
+                       (:parent "Acquisition"
+                        :members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [528 535])
+                            ("Impl" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("config_" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("AcquisitionConfig" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [543 576])
+                                    ("port_" variable (:type ("std::unique_ptr" type
+                                         (:template-specifier 
+                                            ( ("SerialPort" type nil nil nil))                                            
+                                          :type "class")
+                                          nil nil)) (reparse-symbol arg-sub-list) [577 611]))                                  
+                                :type ("Impl" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [538 662])
+                            ("Open" function (:type "void") (reparse-symbol classsubparts) [725 1892])
+                            ("SetTimeout" function
+                               (:arguments 
+                                  ( ("timeout" variable (:type ("std::chrono::milliseconds" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [2419 2453]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [2403 2490])
+                            ("ReadDeviceSerialNumber" function (:type ("std::string" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2494 2619])
+                            ("ReadSchema" function (:type ("AcquisitionSchemaResponse" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2623 2764])
+                            ("ReadBreathData" function (:type ("AcquisitionBreathDataResponse" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2768 3154])
+                            ("ReadSettingData" function (:type ("AcquisitionSettingDataResponse" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3158 3552])
+                            ("ReadAlarmData" function (:type ("AcquisitionAlarmDataResponse" type (:type "class") nil nil)) (reparse-symbol classsubparts) [3556 3934])
+                            ("ReadCurveData" function
+                               (:arguments 
+                                  ( ("req" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("AcquisitionCurveDataRequest" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [3988 4027]))                                  
+                                :type ("AcquisitionCurveDataResponse" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3938 4379])
+                            ("private" label nil (reparse-symbol classsubparts) [4382 4390])
+                            ("thisName" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"Acquisition\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [4410 4447])
+                            ("safeTimeoutToReceiveSchemas" variable (:type ("std::chrono::milliseconds" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4467 4528])
+                            ("config" variable (:type ("AcquisitionConfig" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4532 4559])
+                            ("port" variable (:type ("std::unique_ptr" type
+                                 (:template-specifier 
+                                    ( ("SerialPort" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [4562 4597])
+                            ("schemaMap" variable (:type ("SchemaMap" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4601 4623])
+                            ("openTimePoint" variable (:type ("std::chrono::time_point" type
+                                 (:template-specifier 
+                                    ( ("std::chrono::steady_clock" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol classsubparts) [4626 4693])
+                            ("GetNow" function
+                               (:typemodifiers ("static")
+                                :type ("std::chrono::steady_clock::time_point" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4697 4801])
+                            ("CheckIsOpen" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [4805 4904])
+                            ("GetTimestamp" function (:type ("std::chrono::milliseconds" type (:type "class") nil nil)) (reparse-symbol classsubparts) [4908 5111])
+                            ("LoadSchemasMap" function
+                               (:arguments 
+                                  ( ("commandPort" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("CommandPort" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [5135 5166]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [5115 6118]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [501 6121])
+                    ("Acquisition" function
+                       (:constructor-flag t
+                        :parent "Acquisition"
+                        :arguments 
+                          ( ("config" variable
+                               (:reference 1
+                                :constant-flag t
+                                :type ("AcquisitionConfig" type (:type "class") nil nil))
+                                (reparse-symbol arg-sub-list) [6182 6214])
+                            ("port" variable (:type ("std::unique_ptr" type
+                                 (:template-specifier 
+                                    ( ("SerialPort" type nil nil nil))                                    
+                                  :type "class")
+                                  nil nil)) (reparse-symbol arg-sub-list) [6240 6273]))                          
+                        :type ("Acquisition" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6157 6336])
+                    ("Open" function
+                       (:parent "Acquisition"
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [6586 6628])
+                    ("SetTimeout" function
+                       (:parent "Acquisition"
+                        :arguments 
+                          ( ("timeout" variable (:type ("std::chrono::milliseconds" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6812 6846]))                          
+                        :type "void")
+                        (reparse-symbol namespacesubparts) [6783 6879])
+                    ("ReadDeviceSerialNumber" function
+                       (:parent "Acquisition"
+                        :type ("std::string" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6881 6975])
+                    ("ReadSchema" function
+                       (:parent "Acquisition"
+                        :type ("AcquisitionSchemaResponse" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [6977 7061])
+                    ("ReadBreathData" function
+                       (:parent "Acquisition"
+                        :type ("AcquisitionBreathDataResponse" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7062 7158])
+                    ("ReadSettingData" function
+                       (:parent "Acquisition"
+                        :type ("AcquisitionSettingDataResponse" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7159 7258])
+                    ("ReadAlarmData" function
+                       (:parent "Acquisition"
+                        :type ("AcquisitionAlarmDataResponse" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7259 7352])
+                    ("ReadCurveData" function
+                       (:parent "Acquisition"
+                        :arguments 
+                          ( ("request" variable (:type ("AcquisitionCurveDataRequest" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [7414 7450]))                          
+                        :type ("AcquisitionCurveDataResponse" type (:type "class") nil nil))
+                        (reparse-symbol namespacesubparts) [7353 7493]))                  
+                :type "namespace")
+                nil [266 7496]))          
+      :file "servoi.cpp"
+      :pointmax 7517
+      :fsize 7516
+      :lastmodtime '(24539 57052 822978 82000)
+      :unmatched-syntax '((semantic-list 6750 . 6782) (symbol 6741 . 6749) (CONST 6735 . 6740) (semantic-list 6732 . 6734) (symbol 6722 . 6732) (punctuation 6721 . 6722) (punctuation 6720 . 6721) (symbol 6709 . 6720) (symbol 6696 . 6708) (punctuation 6695 . 6696) (punctuation 6694 . 6695) (symbol 6688 . 6694) (punctuation 6687 . 6688) (punctuation 6686 . 6687) (symbol 6683 . 6686) (semantic-list 6664 . 6682) (symbol 6655 . 6663) (semantic-list 6652 . 6654) (symbol 6647 . 6652) (punctuation 6646 . 6647) (punctuation 6645 . 6646) (symbol 6634 . 6645) (VOID 6629 . 6633) (semantic-list 6559 . 6585) (symbol 6550 . 6558) (CONST 6544 . 6549) (semantic-list 6541 . 6543) (symbol 6535 . 6541) (punctuation 6534 . 6535) (punctuation 6533 . 6534) (symbol 6522 . 6533) (BOOL 6517 . 6521) (punctuation 6514 . 6515) (DEFAULT 6507 . 6514) (punctuation 6505 . 6506) (symbol 6496 . 6504) (semantic-list 6480 . 6495) (punctuation 6479 . 6480) (OPERATOR 6471 . 6479) (punctuation 6493 . 6494) (punctuation 6470 . 6471) (punctuation 6469 . 6470) (symbol 6458 . 6469) (punctuation 6493 . 6494) (punctuation 6456 . 6457) (symbol 6445 . 6456) (punctuation 6493 . 6494) (punctuation 6443 . 6444) (DEFAULT 6436 . 6443) (punctuation 6434 . 6435) (symbol 6425 . 6433) (semantic-list 6409 . 6424) (symbol 6398 . 6409) (punctuation 6422 . 6423) (punctuation 6397 . 6398) (punctuation 6396 . 6397) (symbol 6385 . 6396) (punctuation 6422 . 6423) (punctuation 6383 . 6384) (DEFAULT 6376 . 6383) (punctuation 6374 . 6375) (symbol 6365 . 6373) (semantic-list 6362 . 6364) (symbol 6351 . 6362) (punctuation 6350 . 6351) (punctuation 6349 . 6350) (punctuation 6348 . 6349) (symbol 6337 . 6348) (symbol 4457 . 4466) (STATIC 4450 . 4456) (symbol 4400 . 4409) (STATIC 4393 . 4399) (semantic-list 2363 . 2399) (symbol 2354 . 2362) (CONST 2348 . 2353) (semantic-list 2345 . 2347) (symbol 2335 . 2345) (symbol 2322 . 2334) (punctuation 2321 . 2322) (punctuation 2320 . 2321) (symbol 2314 . 2320) (punctuation 2313 . 2314) (punctuation 2312 . 2313) (symbol 2309 . 2312) (semantic-list 1918 . 2305) (symbol 1909 . 1917) (semantic-list 1906 . 1908) (symbol 1901 . 1906) (VOID 1896 . 1900) (semantic-list 695 . 721) (symbol 686 . 694) (CONST 680 . 685) (semantic-list 677 . 679) (symbol 671 . 677) (BOOL 666 . 670)))
+    (semanticdb-table "semanticdb-table"
+      :file "alarm.h"
+      :fsize 2430
+      :lastmodtime '(24539 57052 822978 82000))
+    (semanticdb-table "semanticdb-table"
+      :file "breath.h"
+      :fsize 2511
+      :lastmodtime '(24539 57052 822978 82000))
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("SERVOI_COMMANDPORT_H" variable (:constant-flag t) nil [38 58])
+            ("functional" include (:system-flag t) nil [60 81])
+            ("memory" include (:system-flag t) nil [82 99])
+            ("stdexcept" include (:system-flag t) nil [100 120])
+            ("string" include (:system-flag t) nil [121 138])
+            ("unordered_map" include (:system-flag t) nil [139 163])
+            ("vector" include (:system-flag t) nil [164 181])
+            ("packet.h" include nil nil [183 202])
+            ("parser.h" include nil nil [203 222])
+            ("servoi/servoi.h" include nil nil [223 249])
+            ("util.h" include nil nil [250 267])
+            ("servoi" type
+               (:members 
+                  ( ("CommandPort" type
+                       (:members 
+                          ( ("public" label nil (reparse-symbol classsubparts) [543 550])
+                            ("CommandPort" function
+                               (:constructor-flag t
+                                :arguments 
+                                  ( ("port_" variable
+                                       (:reference 1
+                                        :type ("SerialPort" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [713 731])
+                                    ("config_" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("AcquisitionConfig" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [732 765]))                                  
+                                :type ("CommandPort" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [701 805])
+                            ("SetExtendedMode" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [937 1585])
+                            ("SetHighestSupportedProtocolVersion" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [1747 2377])
+                            ("SetFastestSupportedSamplingTime" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [2449 3207])
+                            ("ReadDeviceSerialNumber" function
+                               (:methodconst-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [3246 3393])
+                            ("SetBreathDataAcquisitionDefinition" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [3472 3707])
+                            ("SetSettingDataAcquisitionDefinition" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [3787 4026])
+                            ("SetAlarmDataAcquisitionDefinition" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [4104 4335])
+                            ("SetCurveDataAcquisitionDefinition" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [4413 4644])
+                            ("ReadChannelConfiguration" function
+                               (:methodconst-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [4779 4930])
+                            ("ReadAcquiredBreathData" function
+                               (:methodconst-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5114 5331])
+                            ("ReadAcquiredSettingData" function
+                               (:methodconst-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5517 5737])
+                            ("ReadAcquiredAlarmData" function
+                               (:methodconst-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [5919 6133])
+                            ("ReadAcquiredCurveData" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("request" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("AcquisitionCurveDataRequest" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [6571 6614])
+                                    ("curveDataPayloadParser" variable
+                                       (:reference 1
+                                        :type ("OnlineParser" type
+                                             (:template-specifier 
+                                                ( ("AcquisitionCurveData" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [6621 6680]))                                  
+                                :type ("AcquisitionCurveData" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [6521 7258])
+                            ("private" label nil (reparse-symbol classsubparts) [7261 7269])
+                            ("log" variable (:type ("Log" type (:type "class") nil nil)) (reparse-symbol classsubparts) [7272 7296])
+                            ("defaultSuccessResponse" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"*\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7316 7357])
+                            ("supportedDevice" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"Servo-i\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7377 7417])
+                            ("altSupportedDevice" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"Servo-s\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7437 7480])
+                            ("readCITypeCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"RCTY\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7500 7539])
+                            ("readHighestProtocolVersionCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"RHVE\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7559 7614])
+                            ("setProtocolVersionCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"SPVE\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7634 7681])
+                            ("setSamplingTimeCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"SSMP\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7701 7745])
+                            ("readDeviceSerialNumberCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"RSEN\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7765 7816])
+                            ("setBreathDataAcquisitionDefinitionCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"SDADB\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7836 7906])
+                            ("setSettingDataAcquisitionDefinitionCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"SDADS\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [7926 7997])
+                            ("setAlarmDataAcquisitionDefinitionCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"SDADE\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [8017 8086])
+                            ("setCurveDataAcquisitionDefinitionCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"SDADC\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [8141 8210])
+                            ("readChannelConfigurationCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"RCCO\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [8230 8283])
+                            ("readAcquiredBreathDataCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"RADAB\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [8303 8355])
+                            ("readAcquiredSettingDataCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"RADAS\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [8375 8428])
+                            ("readAcquiredAlarmDataCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"RADAE\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [8448 8499])
+                            ("readAcquiredCurveDataCommand" variable
+                               (:pointer 1
+                                :constant-flag t
+                                :default-value "\"RADAUC\""
+                                :type "char")
+                                (reparse-symbol classsubparts) [8519 8571])
+                            ("port" variable (:type ("SerialPort" type (:type "class") nil nil)) (reparse-symbol classsubparts) [8575 8592])
+                            ("config" variable
+                               (:constant-flag t
+                                :type ("AcquisitionConfig" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [8631 8663])
+                            ("WriteASCII" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("asciiPayload" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [8706 8738]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [8690 9041])
+                            ("ReadASCIIStreamUntilEndOfTransmission" function
+                               (:methodconst-flag t
+                                :type ("std::string" type (:type "class") nil nil))
+                                (reparse-symbol classsubparts) [9045 9355])
+                            ("ReadBinaryStreamUntilFullPacketParserCompletes" function
+                               (:template 
+                                  ( ("TPayloadResult" type (:type "class") nil nil))                                  
+                                :type ("TPayloadResult" type (:type "class") nil nil)
+                                :arguments 
+                                  ( ("payloadParser" variable
+                                       (:reference 1
+                                        :type ("OnlineParser" type
+                                             (:template-specifier 
+                                                ( ("TPayloadResult" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [9842 9886]))                                  
+                                :methodconst-flag t)
+                                (reparse-symbol classsubparts) [9736 11123])
+                            ("ResetPortState" function
+                               (:methodconst-flag t
+                                :type "void")
+                                (reparse-symbol classsubparts) [11346 12173])
+                            ("DiscardDeviceTxBuffer" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("plog" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("Log" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [12776 12792]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [12749 13438])
+                            ("SetDataAcquisitionDefinition" function
+                               (:methodconst-flag t
+                                :arguments 
+                                  ( ("dataName" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13483 13511])
+                                    ("baseCommand" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::string" type (:type "class") nil nil))
+                                        (reparse-symbol arg-sub-list) [13512 13543])
+                                    ("activeChannels" variable
+                                       (:reference 1
+                                        :constant-flag t
+                                        :type ("std::vector" type
+                                             (:template-specifier 
+                                                ( ("int" type nil nil nil))                                                
+                                              :type "class")
+                                              nil nil))
+                                        (reparse-symbol arg-sub-list) [13550 13589]))                                  
+                                :type "void")
+                                (reparse-symbol classsubparts) [13442 14219]))                          
+                        :type "class")
+                        (reparse-symbol namespacesubparts) [522 14223]))                  
+                :type "namespace")
+                nil [269 14244]))          
+      :file "commandport.h"
+      :pointmax 14274
+      :fsize 14273
+      :lastmodtime '(24539 57052 822978 82000)
+      :unmatched-syntax '((symbol 8509 . 8518) (STATIC 8502 . 8508) (symbol 8438 . 8447) (STATIC 8431 . 8437) (symbol 8365 . 8374) (STATIC 8358 . 8364) (symbol 8293 . 8302) (STATIC 8286 . 8292) (symbol 8220 . 8229) (STATIC 8213 . 8219) (symbol 8131 . 8140) (STATIC 8124 . 8130) (symbol 8007 . 8016) (STATIC 8000 . 8006) (symbol 7916 . 7925) (STATIC 7909 . 7915) (symbol 7826 . 7835) (STATIC 7819 . 7825) (symbol 7755 . 7764) (STATIC 7748 . 7754) (symbol 7691 . 7700) (STATIC 7684 . 7690) (symbol 7624 . 7633) (STATIC 7617 . 7623) (symbol 7549 . 7558) (STATIC 7542 . 7548) (symbol 7490 . 7499) (STATIC 7483 . 7489) (symbol 7427 . 7436) (STATIC 7420 . 7426) (symbol 7367 . 7376) (STATIC 7360 . 7366) (symbol 7306 . 7315) (STATIC 7299 . 7305))
+      :lexical-table 
+        '(("SERVOI_COMMANDPORT_H")
+          )
+)
+    (semanticdb-table "semanticdb-table"
+      :file "curve.h"
+      :fsize 20697
+      :lastmodtime '(24539 57052 822978 82000))
+    (semanticdb-table "semanticdb-table"
+      :file "schema.h"
+      :fsize 16236
+      :lastmodtime '(24539 57052 822978 82000))
+    (semanticdb-table "semanticdb-table"
+      :file "setting.h"
+      :fsize 10400
+      :lastmodtime '(24539 57052 822978 82000))
+    (semanticdb-table "semanticdb-table"
+      :file "packet.h"
+      :fsize 17045
+      :lastmodtime '(24539 57052 822978 82000))
+    (semanticdb-table "semanticdb-table"
+      :file "parser.h"
+      :fsize 823
+      :lastmodtime '(24539 57052 822978 82000)))
+  :file "!home!axius!sh-central-suite!externals!servoi!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

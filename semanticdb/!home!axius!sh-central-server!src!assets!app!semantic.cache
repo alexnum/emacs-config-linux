@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "app.js"
+      :pointmax 16438
+      :fsize 16437
+      :lastmodtime '(24649 21003 129018 618000)
+      :unmatched-syntax '((VARIABLE 16073 . 16076) (PAREN_BLOCK 16086 . 16436) (VARIABLE 14816 . 14819) (PAREN_BLOCK 14829 . 16070) (VARIABLE 14681 . 14684) (PAREN_BLOCK 14691 . 14813) (VARIABLE 14562 . 14565) (PAREN_BLOCK 14572 . 14678) (VARIABLE 14242 . 14245) (PAREN_BLOCK 14255 . 14559) (VARIABLE 13491 . 13494) (PAREN_BLOCK 13504 . 14239) (VARIABLE 13205 . 13208) (PAREN_BLOCK 13218 . 13488) (VARIABLE 12936 . 12939) (PAREN_BLOCK 12949 . 13202) (VARIABLE 12686 . 12689) (PAREN_BLOCK 12699 . 12933) (VARIABLE 12247 . 12250) (PAREN_BLOCK 12260 . 12683) (VARIABLE 12008 . 12011) (PAREN_BLOCK 12021 . 12244) (VARIABLE 11750 . 11753) (PAREN_BLOCK 11763 . 12005) (VARIABLE 11366 . 11369) (PAREN_BLOCK 11379 . 11747) (PAREN_BLOCK 10786 . 11363) (DOT 10782 . 10783) (PAREN_BLOCK 406 . 10782) (DOT 399 . 400) (VAR 116 . 119) (PAREN_BLOCK 140 . 399) (BRACK_BLOCK 101 . 113))))
+  :file "!home!axius!sh-central-server!src!assets!app!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

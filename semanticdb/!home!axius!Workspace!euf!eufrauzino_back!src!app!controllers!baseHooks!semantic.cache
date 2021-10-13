@@ -1,0 +1,56 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "NotificationHooks.js"
+      :pointmax 319
+      :fsize 318
+      :lastmodtime '(24869 18313 407596 519000)
+      :unmatched-syntax '((FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49) (FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49) (FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 289 . 292) (DOT 301 . 302) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "TrackedEntityBaseHook.js"
+      :pointmax 202
+      :fsize 201
+      :lastmodtime '(24851 2933 330580 290000)
+      :unmatched-syntax '((PAREN_BLOCK 83 . 116) (PAREN_BLOCK 25 . 58)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "ProcessHooks.js"
+      :pointmax 1094
+      :fsize 1093
+      :lastmodtime '(24870 56034 303879 212000)
+      :unmatched-syntax '((VAR 1016 . 1019) (BRACE_BLOCK 1028 . 1068) (VARIABLE 1071 . 1077) ($EOI 1094 . 1094) (VAR 896 . 899) (FUNCTION 917 . 925) (PAREN_BLOCK 925 . 941) (VAR 133 . 136) (FUNCTION 162 . 170) (PAREN_BLOCK 171 . 187) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75) (VAR 1077 . 1080) (BRACE_BLOCK 1089 . 1129) (VARIABLE 1132 . 1138) ($EOI 1155 . 1155) (VAR 957 . 960) (FUNCTION 978 . 986) (PAREN_BLOCK 986 . 1002) (VAR 133 . 136) (FUNCTION 162 . 170) (PAREN_BLOCK 171 . 187) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75) (VAR 1077 . 1080) (BRACE_BLOCK 1089 . 1129) (VARIABLE 1132 . 1138) ($EOI 1155 . 1155) (VAR 957 . 960) (FUNCTION 978 . 986) (PAREN_BLOCK 986 . 1002) (VAR 133 . 136) (FUNCTION 162 . 170) (PAREN_BLOCK 171 . 187) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75) (VAR 1078 . 1081) (BRACE_BLOCK 1090 . 1130) (VARIABLE 1133 . 1139) ($EOI 1156 . 1156) (VAR 958 . 961) (FUNCTION 979 . 987) (PAREN_BLOCK 987 . 1003) (VAR 133 . 136) (FUNCTION 162 . 170) (PAREN_BLOCK 171 . 187) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75) (VAR 1077 . 1080) (BRACE_BLOCK 1089 . 1129) (VARIABLE 1132 . 1138) ($EOI 1155 . 1155) (VAR 957 . 960) (FUNCTION 978 . 986) (PAREN_BLOCK 986 . 1002) (VAR 133 . 136) (FUNCTION 162 . 170) (PAREN_BLOCK 171 . 187) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75) (VAR 1077 . 1080) (BRACE_BLOCK 1089 . 1129) (VARIABLE 1132 . 1138) ($EOI 1155 . 1155) (VAR 957 . 960) (FUNCTION 978 . 986) (PAREN_BLOCK 986 . 1002) (VAR 133 . 136) (FUNCTION 162 . 170) (PAREN_BLOCK 171 . 187) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75) (VAR 1065 . 1068) (BRACE_BLOCK 1077 . 1117) (VARIABLE 1120 . 1126) ($EOI 1143 . 1143) (VAR 945 . 948) (FUNCTION 966 . 974) (PAREN_BLOCK 974 . 990) (VAR 133 . 136) (FUNCTION 162 . 170) (PAREN_BLOCK 171 . 187) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75) (VAR 1016 . 1019) (BRACE_BLOCK 1028 . 1068) (VARIABLE 1071 . 1077) ($EOI 1094 . 1094) (VAR 896 . 899) (FUNCTION 917 . 925) (PAREN_BLOCK 925 . 941) (VAR 133 . 136) (FUNCTION 162 . 170) (PAREN_BLOCK 171 . 187) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "UserHooks.js"
+      :pointmax 375
+      :fsize 374
+      :lastmodtime '(24870 56025 671828 304000)
+      :unmatched-syntax '((FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49) (FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49) (FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49) (FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49) (FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49) (FUNCTION 24 . 32) (PAREN_BLOCK 33 . 49)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "CustomersHooks.js"
+      :pointmax 472
+      :fsize 471
+      :lastmodtime '(24870 55833 270640 887000)
+      :unmatched-syntax '((VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75) (VAR 78 . 81) (FUNCTION 101 . 109) (PAREN_BLOCK 110 . 126) (PAREN_BLOCK 24 . 75)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "DeadlineHooks.js"
+      :pointmax 1497
+      :fsize 1496
+      :lastmodtime '(24870 57648 604775 737000)
+      :unmatched-syntax '((VARIABLE 1474 . 1480) ($EOI 1497 . 1497) (VARIABLE 1440 . 1445) (BRACK_BLOCK 1453 . 1471) (VAR 1355 . 1358) (BRACE_BLOCK 1367 . 1381) (SEMICOLON 1381 . 1382) (VARIABLE 1383 . 1388) (BRACK_BLOCK 1398 . 1438) (VAR 735 . 738) (FUNCTION 763 . 771) (PAREN_BLOCK 771 . 787) (VAR 133 . 136) (FUNCTION 156 . 164) (PAREN_BLOCK 165 . 181) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75) (VARIABLE 1474 . 1480) ($EOI 1497 . 1497) (VARIABLE 1440 . 1445) (BRACK_BLOCK 1453 . 1471) (VAR 1355 . 1358) (BRACE_BLOCK 1367 . 1381) (SEMICOLON 1381 . 1382) (VARIABLE 1383 . 1388) (BRACK_BLOCK 1398 . 1438) (VAR 735 . 738) (FUNCTION 763 . 771) (PAREN_BLOCK 771 . 787) (VAR 133 . 136) (FUNCTION 156 . 164) (PAREN_BLOCK 165 . 181) (VAR 77 . 80) (PAREN_BLOCK 102 . 130) (PAREN_BLOCK 24 . 75))))
+  :file "!home!axius!Workspace!euf!eufrauzino_back!src!app!controllers!baseHooks!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

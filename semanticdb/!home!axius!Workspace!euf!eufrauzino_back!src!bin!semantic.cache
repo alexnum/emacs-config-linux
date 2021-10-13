@@ -1,0 +1,21 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("normalizePort" function (:arguments 
+              ( ("val" variable nil (reparse-symbol FormalParameterList) [768 771]))              ) nil [745 945])
+            ("onError" function (:arguments 
+              ( ("error" variable nil (reparse-symbol FormalParameterList) [1022 1027]))              ) nil [1005 1515])
+            ("onListening" function nil nil [1579 1755]))          
+      :file "www"
+      :pointmax 1756
+      :fsize 1755
+      :lastmodtime '(24869 16551 4222 677000)
+      :unmatched-syntax nil))
+  :file "!home!axius!Workspace!euf!eufrauzino_back!src!bin!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

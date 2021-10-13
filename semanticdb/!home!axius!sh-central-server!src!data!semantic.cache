@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "config.json"
+      :pointmax 1778
+      :fsize 1776
+      :lastmodtime '(24821 55221 608345 107000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "config.json.bak"
+      :pointmax 1777
+      :fsize 1776
+      :lastmodtime '(24821 55221 612345 42000)
+      :unmatched-syntax nil))
+  :file "!home!axius!sh-central-server!src!data!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

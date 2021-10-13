@@ -1,0 +1,50 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "Bootstrap.js"
+      :pointmax 981
+      :fsize 980
+      :lastmodtime '(24851 2933 330580 290000)
+      :unmatched-syntax '((FUNCTION 719 . 727) (PAREN_BLOCK 727 . 729) (VAR 645 . 648) (BRACK_BLOCK 669 . 700) (VAR 559 . 562) (FUNCTION 584 . 592) (PAREN_BLOCK 592 . 594) (VAR 47 . 50) (FUNCTION 75 . 83) (PAREN_BLOCK 83 . 85) (PAREN_BLOCK 26 . 44)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "WSService.js"
+      :pointmax 1047
+      :fsize 1046
+      :lastmodtime '(24869 18109 345351 272000)
+      :unmatched-syntax '((VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 30 . 35) (VARIABLE 36 . 45) (BRACE_BLOCK 46 . 719) (END_BLOCK 720 . 721) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 30 . 35) (VARIABLE 36 . 45) (BRACE_BLOCK 46 . 713) (END_BLOCK 714 . 715) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27) (VARIABLE 7 . 10) (PAREN_BLOCK 20 . 27)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("createNotification" function (:arguments 
+              ( ("notificationObj" variable nil (reparse-symbol FormalParameterList) [93 108]))              ) nil [65 221]))          
+      :file "Notification.js"
+      :pointmax 261
+      :fsize 260
+      :lastmodtime '(24869 15024 272601 152000)
+      :unmatched-syntax '((VARIABLE 7 . 19) (PAREN_BLOCK 29 . 56)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "CrudService.js"
+      :pointmax 1570
+      :fsize 1569
+      :lastmodtime '(24870 53864 93279 803000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "Deadline.js"
+      :pointmax 2187
+      :fsize 2186
+      :lastmodtime '(24871 38028 738669 754000)
+      :unmatched-syntax '((VAR 56 . 59) (PAREN_BLOCK 80 . 94) (PAREN_BLOCK 26 . 54) (VAR 56 . 59) (PAREN_BLOCK 80 . 94) (PAREN_BLOCK 26 . 54) (VAR 56 . 59) (PAREN_BLOCK 80 . 94) (PAREN_BLOCK 26 . 54) (VAR 56 . 59) (PAREN_BLOCK 80 . 94) (PAREN_BLOCK 26 . 54) (VAR 56 . 59) (PAREN_BLOCK 80 . 94) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (PAREN_BLOCK 26 . 54) (VARIABLE 183 . 188) (VARIABLE 189 . 206) (FUNCTION 215 . 223) (PAREN_BLOCK 223 . 233) (VARIABLE 57 . 62) (VARIABLE 63 . 73) (FUNCTION 82 . 90) (PAREN_BLOCK 90 . 99) (PAREN_BLOCK 26 . 54) (VARIABLE 224 . 229) (VARIABLE 230 . 247) (FUNCTION 256 . 264) (PAREN_BLOCK 264 . 274) (VARIABLE 98 . 103) (VARIABLE 104 . 114) (FUNCTION 123 . 131) (PAREN_BLOCK 131 . 140) (VAR 42 . 45) (PAREN_BLOCK 67 . 95) (VARIABLE 7 . 11) (PAREN_BLOCK 21 . 40))))
+  :file "!home!axius!Workspace!euf!eufrauzino_back!src!app!services!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

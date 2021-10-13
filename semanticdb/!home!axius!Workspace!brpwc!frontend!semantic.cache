@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "tsconfig.json"
+      :pointmax 730
+      :fsize 729
+      :lastmodtime '(24841 45130 911342 292000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "tsfmt.json"
+      :pointmax 388
+      :fsize 387
+      :lastmodtime '(24908 35980 319745 751000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "tslint.json"
+      :pointmax 1436
+      :fsize 1435
+      :lastmodtime '(24841 45113 507532 697000)
+      :unmatched-syntax nil))
+  :file "!home!axius!Workspace!brpwc!frontend!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

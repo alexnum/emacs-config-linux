@@ -1,0 +1,56 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "20170825031398-add-cash-type-to-payment.js"
+      :pointmax 346
+      :fsize 345
+      :lastmodtime '(24534 22633 816112 188000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "20170825031404-add-text-value-to-payment.js"
+      :pointmax 342
+      :fsize 341
+      :lastmodtime '(24718 57676 560482 746000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "20170825031381-add-indication-to-process.js"
+      :pointmax 726
+      :fsize 725
+      :lastmodtime '(24749 22860 563103 831000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "20170825031405-add-email-to-process.js"
+      :pointmax 365
+      :fsize 364
+      :lastmodtime '(24749 22971 334850 600000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "20170825031407-add-birthday-remind.js"
+      :pointmax 1254
+      :fsize 1253
+      :lastmodtime '(24758 52027 565141 426000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "20170322222712-create-process.js"
+      :pointmax 1801
+      :fsize 1884
+      :lastmodtime '(24534 22633 816112 188000)
+      :unmatched-syntax nil))
+  :file "!home!axius!server_prod!server!migrations!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,171 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("import GenericDataTable from '@/components/tables/GenericDataTable.vue'
+import NewCustomerDialog from '@/components/dialogs/customer/NewCustomerDialog.vue'
+import GeneralDialog from '@/components/dialogs/GeneralDialog'
+import ConfirmDialog from '@/components/dialogs/ConfirmDialog'
+
+export default {
+  components: {
+    GenericDataTable,
+    NewCustomerDialog,
+    GeneralDialog,
+    ConfirmDialog,
+  },
+  data() {
+    return {
+      headers: [
+        { text: 'Nome', value: 'name', sortable: false },
+        { text: 'Cadastrado em', value: 'createdAt', sortable: false },
+        { text: 'Atualizado em', value: 'updatedAt', sortable: false },
+        { text: 'Ações', value: 'actions', sortable: false },
+      ],
+      showNewCustomerDialog: false,
+      currentModel: {},
+      currentModelId: '',
+      customers: {
+        entities: [],
+        currentPage: '1',
+        totalPages: '1',
+        totalItems: '1',
+      },
+      showGeneralDialog: false,
+      textGeneralDialog: '',
+      titleGeneralDialog: '',
+      showConfirmDialog: false,
+      textConfirmDialog: undefined,
+      isCustomerUpdate: false,
+      isCustomerInfo: false,
+    }
+  },
+  head() {
+    return {
+      title: 'Clientes',
+    }
+  },
+  async beforeMount() {
+    await this.fetchCustomers()
+  },
+  methods: {
+    async fetchCustomers() {
+      const { data } = await this.$axios.get(`customers?skip=0&limit=5`)
+      this.customers.entities = data.entities
+      const totalPages = Math.ceil(Number(data.count) / 5)
+      this.customers.totalPages = totalPages <= 0 ? '1' : String(totalPages)
+      this.customers.currentPage = '1'
+      this.customers.totalItems = String(data.count)
+    },
+    newCustomer() {
+      this.currentModel = {
+        type: 'FISICO'
+      }
+      this.currentModelId = ''
+      this.isCustomerUpdate = false
+      this.isCustomerInfo = false
+      this.showNewCustomerDialog = true
+    },
+    closeNewCustomerDialog() {
+      this.isCustomerInfo = false
+      this.isCustomerUpdate = false
+      this.showNewCustomerDialog = false
+      this.currentModel = {}
+    },
+    editCustomer(customer) {
+      this.currentModel = customer
+      this.currentModelId = String(customer._id)
+      this.isCustomerInfo = false
+      this.isCustomerUpdate = true
+      this.showNewCustomerDialog = true
+    },
+    confirmDialog(customer) {
+      this.currentModel = customer
+      this.textConfirmDialog = 'Tem certeza que deseja excluir o cliente? Esta ação não pode ser desfeita!'
+      this.showConfirmDialog = true
+    },
+    closeConfirmDialog() {
+      this.currentModel = {}
+      this.showConfirmDialog = false
+    },
+    async deleteCustomer(customer) {
+      try {
+        await this.$axios.delete(`/customers/${customer._id}`);
+        this.fetchCustomers()
+        this.closeConfirmDialog()
+        this.textGeneralDialog = 'Cliente deletado!'
+        this.titleGeneralDialog = 'Sucesso!'
+        this.showGeneralDialog = true
+      } catch(e) {
+        this.closeConfirmDialog()
+        this.textGeneralDialog = 'Erro ao deletar cliente! Tente novamente!'
+        this.titleGeneralDialog = 'Ops!'
+        this.showGeneralDialog = true
+      }
+    },
+    showCustomerDetails(customer) {
+      this.currentModel = customer
+      this.currentModelId = String(customer._id)
+      this.isCustomerUpdate = false
+      this.isCustomerInfo = true
+      this.showNewCustomerDialog = true
+    },
+    async newPage(newPage) {
+      this.customers.currentPage = String(newPage)
+      const skip = String(Number(this.customers.currentPage - 1) * 5)
+      const { data } = await this.$axios.get(
+        `customers?skip=${skip === '-1' ? '0' : skip}&limit=5`
+      )
+      this.customers.entities = data.entities
+      const totalPages = Math.ceil(Number(data.count) / 5)
+      this.customers.totalPages = totalPages <= 0 ? '1' : String(totalPages)
+      this.customers.totalItems = String(data.count)
+    },
+    async findEntity(q) {
+      if (q) {
+        const { data } = await this.$axios.get(
+          `customers?skip=0&limit=5&q=${q}`
+        )
+        this.customers.entities = data.entities
+        const totalPages = Math.ceil(Number(data.count) / 5)
+        this.customers.totalPages = totalPages <= 0 ? '1' : String(totalPages)
+        this.customers.totalItems = String(data.count)
+      } else {
+        this.newPage(1)
+      }
+    },
+    async newCustomerSaved() {
+      this.textGeneralDialog = 'Novo cliente cadastrado!'
+      this.titleGeneralDialog = 'Sucesso!'
+      this.showGeneralDialog = true
+      await this.fetchCustomers()
+    },
+    async customerUpdated() {
+      this.textGeneralDialog = 'Cliente editado!'
+      this.titleGeneralDialog = 'Sucesso!'
+      this.showGeneralDialog = true
+      await this.fetchCustomers()
+    },
+    errorNewCustomer() {
+      this.titleGeneralDialog = 'Ops!'
+      this.textGeneralDialog = 'Erro ao cadastar/editar novo cliente! Tente novamente!'
+      this.showGeneralDialog = true
+    },
+    closeGeneralDialog() {
+      this.showGeneralDialog = false
+      this.showNewCustomerDialog = false
+    },
+  },
+}" section nil nil [1452 6560]))          
+      :file "index.vue"
+      :pointmax 6560
+      :fsize 6566
+      :lastmodtime '(24870 52656 271717 294000)
+      :unmatched-syntax nil))
+  :file "!home!axius!Workspace!euf!eufrauzino-front!pages!customers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

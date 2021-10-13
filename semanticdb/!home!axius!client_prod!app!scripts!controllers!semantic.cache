@@ -1,0 +1,32 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "relatorios.js"
+      :pointmax 1994
+      :fsize 2052
+      :lastmodtime '(24546 8322 741529 641000)
+      :unmatched-syntax '((PAREN_BLOCK 186 . 1992) (DOT 175 . 176) (VARIABLE 145 . 152) (PAREN_BLOCK 159 . 172)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "payment.js"
+      :pointmax 4480
+      :fsize 4484
+      :lastmodtime '(24546 8322 741529 641000)
+      :unmatched-syntax '((PAREN_BLOCK 42 . 4479) (DOT 31 . 32) (PAREN_BLOCK 15 . 28)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "financeiro_pessoal.js"
+      :pointmax 5211
+      :fsize 5385
+      :lastmodtime '(24546 8322 737529 962000)
+      :unmatched-syntax '((PAREN_BLOCK 59 . 5209) (DOT 48 . 49) (VARIABLE 18 . 25) (PAREN_BLOCK 32 . 45))))
+  :file "!home!axius!client_prod!app!scripts!controllers!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

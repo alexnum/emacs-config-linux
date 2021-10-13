@@ -1,0 +1,41 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "connections.js"
+      :pointmax 4765
+      :fsize 4764
+      :lastmodtime '(24806 417 789913 567000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "routes.js"
+      :pointmax 18129
+      :fsize 18128
+      :lastmodtime '(24821 30679 615712 237000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getLocalHostAddress" function nil nil [163 841])
+            ("findHostInterface" function (:arguments 
+              ( ("interfaces" variable nil (reparse-symbol FormalParameterList) [870 880])
+                ("dockerIps" variable nil (reparse-symbol FormalParameterList) [882 891]))              ) nil [843 1312])
+            ("getDockerIps" function nil nil [1314 2675])
+            ("isValidInterface" function (:arguments 
+              ( ("interfaces" variable nil (reparse-symbol FormalParameterList) [2703 2713])
+                ("name" variable nil (reparse-symbol FormalParameterList) [2715 2719])
+                ("dockerIps" variable nil (reparse-symbol FormalParameterList) [2721 2730]))              ) nil [2677 3089]))          
+      :file "central.js"
+      :pointmax 4670
+      :fsize 4669
+      :lastmodtime '(24821 54591 335732 847000)
+      :unmatched-syntax '((VARIABLE 87 . 92) (VARIABLE 93 . 95) (PAREN_BLOCK 105 . 122) (PAREN_BLOCK 79 . 85) (VARIABLE 87 . 92) (VARIABLE 93 . 95) (PAREN_BLOCK 105 . 122) (PAREN_BLOCK 79 . 85) (VARIABLE 87 . 92) (VARIABLE 93 . 95) (PAREN_BLOCK 105 . 122) (PAREN_BLOCK 79 . 85) (VARIABLE 87 . 92) (VARIABLE 93 . 95) (PAREN_BLOCK 105 . 122) (PAREN_BLOCK 79 . 85) (VARIABLE 87 . 92) (VARIABLE 93 . 95) (PAREN_BLOCK 105 . 122) (PAREN_BLOCK 79 . 85))))
+  :file "!home!axius!sh-central-server!src!config!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

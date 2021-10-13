@@ -1,0 +1,27 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "Patient.js"
+      :pointmax 2669
+      :fsize 2668
+      :lastmodtime '(24793 47285 136534 296000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("handleBedNumber" function (:arguments 
+              ( ("bedObject" variable nil (reparse-symbol FormalParameterList) [398 407])
+                ("cb" variable nil (reparse-symbol FormalParameterList) [409 411]))              ) nil [373 741]))          
+      :file "Bed.js"
+      :pointmax 1882
+      :fsize 1881
+      :lastmodtime '(24649 21055 885692 650000)
+      :unmatched-syntax nil))
+  :file "!home!axius!sh-central-server!src!api!models!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,45 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getFilename" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [203 206])
+                ("file" variable nil (reparse-symbol FormalParameterList) [208 212])
+                ("cb" variable nil (reparse-symbol FormalParameterList) [214 216]))              ) nil [181 330])
+            ("getDestination" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [357 360])
+                ("file" variable nil (reparse-symbol FormalParameterList) [362 366])
+                ("cb" variable nil (reparse-symbol FormalParameterList) [368 370]))              ) nil [332 399])
+            ("AwsStorage" function (:arguments 
+              ( ("opts" variable nil (reparse-symbol FormalParameterList) [422 426]))              ) nil [401 722])
+            ("_handleFile" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [781 784])
+                ("file" variable nil (reparse-symbol FormalParameterList) [786 790])
+                ("cb" variable nil (reparse-symbol FormalParameterList) [792 794]))              ) nil [759 2100])
+            ("_removeFile" function (:arguments 
+              ( ("req" variable nil (reparse-symbol FormalParameterList) [2160 2163])
+                ("file" variable nil (reparse-symbol FormalParameterList) [2165 2169])
+                ("cb" variable nil (reparse-symbol FormalParameterList) [2171 2173]))              ) nil [2138 2293]))          
+      :file "AwsStorage.js"
+      :pointmax 2362
+      :fsize 2457
+      :lastmodtime '(24534 22633 820112 334000)
+      :unmatched-syntax '((VARIABLE 2295 . 2301) (FUNCTION 2312 . 2320) (PAREN_BLOCK 2321 . 2327) (PAREN_BLOCK 169 . 179) (PAREN_BLOCK 138 . 148) (PAREN_BLOCK 109 . 117) (PAREN_BLOCK 84 . 90) (PAREN_BLOCK 61 . 67)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("lastDayInMonth" function (:arguments 
+              ( ("iMonth" variable nil (reparse-symbol FormalParameterList) [413 419])
+                ("iYear" variable nil (reparse-symbol FormalParameterList) [421 426]))              ) nil [389 486]))          
+      :file "dateUtils.js"
+      :pointmax 487
+      :fsize 486
+      :lastmodtime '(24762 18662 832846 586000)
+      :unmatched-syntax nil))
+  :file "!home!axius!server_prod!server!utils!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

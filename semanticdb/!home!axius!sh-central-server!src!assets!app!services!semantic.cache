@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "device.js"
+      :pointmax 10132
+      :fsize 10131
+      :lastmodtime '(24821 49584 986285 770000)
+      :unmatched-syntax '((VARIABLE 81 . 98) (VARIABLE 110 . 113) (PAREN_BLOCK 121 . 10130) (VARIABLE 81 . 98) (VARIABLE 110 . 113) (PAREN_BLOCK 121 . 10130))))
+  :file "!home!axius!sh-central-server!src!assets!app!services!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

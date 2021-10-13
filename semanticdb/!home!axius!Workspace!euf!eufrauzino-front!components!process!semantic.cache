@@ -1,0 +1,73 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("export default {
+  props: {
+    files: {
+      type: Array,
+      default: () => [],
+    },
+  },
+  data() {
+    return {
+      localFiles: [],
+    }
+  },
+  watch: {
+    files(newValue) {
+      this.localFiles = newValue
+    },
+  },
+  methods: {
+    uploadFile() {
+      this.$emit('new')
+    },
+    async deleteFile(file) {
+      try {
+        await this.$axios.delete(`/document/${file._id}`)
+        this.$emit('fileDeleted')
+      } catch (error) {
+        this.$emit('error')
+      }
+    },
+    async downloadFile(file) {
+      const { data } = await this.$axios.get(`document/download/${file._id}`)
+      this.download(data.url, data.filename)
+    },
+    downloadAll(){
+      this.localFiles.forEach(async (file) => {
+	const { data } = await this.$axios.get(`document/download/${file._id}`)
+        this.download(data.url, data.filename)
+      });
+    },
+    downloadSelected(){
+      this.localFiles.filter(f=>f.selected).forEach(async (file) => {
+	const { data } = await this.$axios.get(`document/download/${file._id}`)
+        this.download(data.url, data.filename)
+      });
+    },
+    download(dataurl, filename) {
+      let a = document.createElement('a')
+      a.href = dataurl
+      a.download = filename
+      a.target = '_blank'
+      document.body.appendChild(a)
+      a.click()
+      document.body.removeChild(a)
+      a = null
+    },
+  },
+}" section nil nil [1421 2817]))          
+      :file "FilesCard.vue"
+      :pointmax 2817
+      :fsize 2818
+      :lastmodtime '(24912 43012 450882 496000)
+      :unmatched-syntax nil))
+  :file "!home!axius!Workspace!euf!eufrauzino-front!components!process!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

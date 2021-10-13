@@ -1,0 +1,178 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("groupPromise" function (:arguments 
+              ( ("g" variable nil (reparse-symbol FormalParameterList) [811 812])
+                ("startDate" variable nil (reparse-symbol FormalParameterList) [814 823])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [825 832]))              ) nil [789 2013]))          
+      :file "CustomerReportService.js"
+      :pointmax 5457
+      :fsize 5472
+      :lastmodtime '(24576 45284 566669 602000)
+      :unmatched-syntax '((VARIABLE 58 . 68) (PAREN_BLOCK 78 . 92)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "FileService.js"
+      :pointmax 976
+      :fsize 1009
+      :lastmodtime '(24655 23658 351831 875000)
+      :unmatched-syntax '((PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75) (PAREN_BLOCK 96 . 103) (COMMA 75 . 76) (VARIABLE 50 . 53) (PAREN_BLOCK 63 . 75)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("saveDocument" function (:arguments 
+              ( ("fieldname" variable nil (reparse-symbol FormalParameterList) [1114 1123])
+                ("template" variable nil (reparse-symbol FormalParameterList) [1125 1133])
+                ("templateOptions" variable nil (reparse-symbol FormalParameterList) [1135 1150]))              ) nil [1091 1580])
+            ("generateDocument" function (:arguments 
+              ( ("fieldname" variable nil (reparse-symbol FormalParameterList) [1609 1618])
+                ("template" variable nil (reparse-symbol FormalParameterList) [1620 1628])
+                ("templateOptions" variable nil (reparse-symbol FormalParameterList) [1630 1645]))              ) nil [1582 2350])
+            ("createFileEntity" function (:arguments 
+              ( ("file" variable nil (reparse-symbol FormalParameterList) [2387 2391])
+                ("creatorId" variable nil (reparse-symbol FormalParameterList) [2393 2402]))              ) nil [2361 2707])
+            ("generateFiles" function (:arguments 
+              ( ("fieldsToGenerate" variable nil (reparse-symbol FormalParameterList) [2734 2750])
+                ("templateOptions" variable nil (reparse-symbol FormalParameterList) [2752 2767]))              ) nil [2710 3715])
+            ("getFieldsToGenerate" function (:arguments 
+              ( ("files" variable nil (reparse-symbol FormalParameterList) [3746 3751]))              ) nil [3717 4027]))          
+      :file "FileProcessService.js"
+      :pointmax 4778
+      :fsize 4916
+      :lastmodtime '(24534 22633 816112 188000)
+      :unmatched-syntax '((VARIABLE 236 . 250) (BRACK_BLOCK 253 . 321) (VARIABLE 201 . 206) (VARIABLE 207 . 209) (PAREN_BLOCK 227 . 233) (VARIABLE 162 . 167) (VARIABLE 168 . 172) (PAREN_BLOCK 188 . 199) (VARIABLE 57 . 61) (VARIABLE 87 . 92) (VARIABLE 93 . 100) (VARIABLE 126 . 131) (VARIABLE 132 . 136) (PAREN_BLOCK 152 . 160)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("updateFixedPayment" function (:arguments 
+              ( ("processId" variable nil (reparse-symbol FormalParameterList) [1035 1044]))              ) nil [1007 1735])
+            ("getPaymentsForUserProcesses" function (:arguments 
+              ( ("userId" variable nil (reparse-symbol FormalParameterList) [1780 1786])
+                ("startDate" variable nil (reparse-symbol FormalParameterList) [1788 1797])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [1799 1806]))              ) nil [1743 3229])
+            ("calculateTotal" function (:arguments 
+              ( ("prevValue" variable nil (reparse-symbol FormalParameterList) [3255 3264])
+                ("currentPayment" variable nil (reparse-symbol FormalParameterList) [3266 3280]))              ) nil [3231 3335])
+            ("formatPaymentDate" function (:arguments 
+              ( ("payment" variable nil (reparse-symbol FormalParameterList) [3364 3371]))              ) nil [3337 3460])
+            ("processUserExtrasAndDiscounts" function (:arguments 
+              ( ("userId" variable nil (reparse-symbol FormalParameterList) [3507 3513])
+                ("startDateStr" variable nil (reparse-symbol FormalParameterList) [3515 3527])
+                ("endDateStr" variable nil (reparse-symbol FormalParameterList) [3529 3539]))              ) nil [3468 4090])
+            ("valueToFixed" function (:arguments 
+              ( ("payment" variable nil (reparse-symbol FormalParameterList) [4114 4121]))              ) nil [4092 4195])
+            ("getUserProcesses" function (:arguments 
+              ( ("userId" variable nil (reparse-symbol FormalParameterList) [4229 4235]))              ) nil [4203 4567])
+            ("getPaymentsForProcesses" function (:arguments 
+              ( ("processIds" variable nil (reparse-symbol FormalParameterList) [4608 4618])
+                ("startDate" variable nil (reparse-symbol FormalParameterList) [4620 4629])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [4631 4638]))              ) nil [4575 4905])
+            ("processUserComissions" function (:arguments 
+              ( ("userId" variable nil (reparse-symbol FormalParameterList) [4944 4950])
+                ("startDate" variable nil (reparse-symbol FormalParameterList) [4952 4961])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [4963 4970]))              ) nil [4913 5575])
+            ("addCustomersToPayments" function (:arguments 
+              ( ("payments" variable nil (reparse-symbol FormalParameterList) [5693 5701])
+                ("customerMap" variable nil (reparse-symbol FormalParameterList) [5703 5714]))              ) nil [5661 5937])
+            ("processUserPayment" function (:arguments 
+              ( ("userId" variable nil (reparse-symbol FormalParameterList) [5967 5973])
+                ("payment" variable nil (reparse-symbol FormalParameterList) [5975 5982]))              ) nil [5939 6134])
+            ("getComission" function (:arguments 
+              ( ("userId" variable nil (reparse-symbol FormalParameterList) [6158 6164])
+                ("payment" variable nil (reparse-symbol FormalParameterList) [6166 6173]))              ) nil [6136 6206])
+            ("generateCashForProcessPayment" function (:arguments 
+              ( ("payment" variable nil (reparse-symbol FormalParameterList) [6253 6260]))              ) nil [6214 6476]))          
+      :file "PaymentService.js"
+      :pointmax 6477
+      :fsize 6676
+      :lastmodtime '(24718 56762 966763 363000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("CreateHistoryEntry" function (:arguments 
+              ( ("callId" variable nil (reparse-symbol FormalParameterList) [269 275])
+                ("userId" variable nil (reparse-symbol FormalParameterList) [277 283])
+                ("processId" variable nil (reparse-symbol FormalParameterList) [285 294])
+                ("status" variable nil (reparse-symbol FormalParameterList) [295 301])
+                ("note" variable nil (reparse-symbol FormalParameterList) [303 307]))              ) nil [241 460])
+            ("RetrieveHistory" function (:arguments 
+              ( ("startDate" variable nil (reparse-symbol FormalParameterList) [495 504])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [506 513]))              ) nil [470 1545]))          
+      :file "ProcessCallService.js"
+      :pointmax 1604
+      :fsize 1603
+      :lastmodtime '(24762 26944 590113 269000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getRows" function (:arguments 
+              ( ("firstStr" variable nil (reparse-symbol FormalParameterList) [1439 1447])
+                ("lastStr" variable nil (reparse-symbol FormalParameterList) [1449 1456])
+                ("sqlMonth" variable nil (reparse-symbol FormalParameterList) [1458 1466])
+                ("status" variable nil (reparse-symbol FormalParameterList) [1468 1474])
+                ("skip" variable nil (reparse-symbol FormalParameterList) [1476 1480])
+                ("limit" variable nil (reparse-symbol FormalParameterList) [1482 1487]))              ) nil [1422 1936])
+            ("getTotalCount" function (:arguments 
+              ( ("firstStr" variable nil (reparse-symbol FormalParameterList) [1967 1975])
+                ("lastStr" variable nil (reparse-symbol FormalParameterList) [1977 1984])
+                ("sqlMonth" variable nil (reparse-symbol FormalParameterList) [1986 1994]))              ) nil [1944 2138])
+            ("getFilteredCount" function (:arguments 
+              ( ("firstStr" variable nil (reparse-symbol FormalParameterList) [2172 2180])
+                ("lastStr" variable nil (reparse-symbol FormalParameterList) [2182 2189])
+                ("sqlMonth" variable nil (reparse-symbol FormalParameterList) [2191 2199])
+                ("status" variable nil (reparse-symbol FormalParameterList) [2201 2207]))              ) nil [2146 2368])
+            ("getCountResult" function (:arguments 
+              ( ("countQuery" variable nil (reparse-symbol FormalParameterList) [2401 2411]))              ) nil [2377 2581])
+            ("buildRetrieveSQL" function (:arguments 
+              ( ("firstDate" variable nil (reparse-symbol FormalParameterList) [2609 2618])
+                ("lastDate" variable nil (reparse-symbol FormalParameterList) [2620 2628])
+                ("month" variable nil (reparse-symbol FormalParameterList) [2630 2635])
+                ("status" variable nil (reparse-symbol FormalParameterList) [2637 2643])
+                ("skip" variable nil (reparse-symbol FormalParameterList) [2645 2649])
+                ("limit" variable nil (reparse-symbol FormalParameterList) [2651 2656]))              ) nil [2583 2899])
+            ("buildTotalCountQuery" function (:arguments 
+              ( ("firstDate" variable nil (reparse-symbol FormalParameterList) [2931 2940])
+                ("lastDate" variable nil (reparse-symbol FormalParameterList) [2942 2950])
+                ("month" variable nil (reparse-symbol FormalParameterList) [2952 2957]))              ) nil [2901 3110])
+            ("buildFilteredCountQuery" function (:arguments 
+              ( ("firstDate" variable nil (reparse-symbol FormalParameterList) [3145 3154])
+                ("lastDate" variable nil (reparse-symbol FormalParameterList) [3156 3164])
+                ("month" variable nil (reparse-symbol FormalParameterList) [3166 3171])
+                ("status" variable nil (reparse-symbol FormalParameterList) [3173 3179]))              ) nil [3112 3361])
+            ("buildBaseQuery" function (:arguments 
+              ( ("firstDate" variable nil (reparse-symbol FormalParameterList) [3387 3396])
+                ("lastDate" variable nil (reparse-symbol FormalParameterList) [3398 3406])
+                ("month" variable nil (reparse-symbol FormalParameterList) [3408 3413]))              ) nil [3363 4271]))          
+      :file "BdayReminderService.js"
+      :pointmax 4272
+      :fsize 4271
+      :lastmodtime '(24803 40646 358548 702000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getLastStatusUpdate" function (:arguments 
+              ( ("process" variable nil (reparse-symbol FormalParameterList) [202 209]))              ) nil [173 1365])
+            ("processesByStatus" function (:arguments 
+              ( ("startDate" variable nil (reparse-symbol FormalParameterList) [1400 1409])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [1411 1418]))              ) nil [1373 2644])
+            ("processStatusUpdate" function (:arguments 
+              ( ("status" variable nil (reparse-symbol FormalParameterList) [2681 2687]))              ) nil [2652 3805])
+            ("leanProcess" function (:arguments 
+              ( ("dbProcess" variable nil (reparse-symbol FormalParameterList) [3828 3837]))              ) nil [3807 4035]))          
+      :file "ProcessService.js"
+      :pointmax 4095
+      :fsize 4094
+      :lastmodtime '(24912 46717 188109 637000)
+      :unmatched-syntax nil))
+  :file "!home!axius!server_prod!server!services!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

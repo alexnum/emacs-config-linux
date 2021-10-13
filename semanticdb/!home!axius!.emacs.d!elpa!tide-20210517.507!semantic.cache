@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode emacs-lisp-mode
+      :tags nil
+      :file "tide-autoloads.el"
+      :pointmax 347
+      :fsize 1850
+      :lastmodtime '(24808 35454 970258 262000)
+      :unmatched-syntax nil))
+  :file "!home!axius!.emacs.d!elpa!tide-20210517.507!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

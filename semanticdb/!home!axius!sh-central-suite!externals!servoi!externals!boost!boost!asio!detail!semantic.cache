@@ -1,0 +1,501 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode c++-mode
+      :tags 
+        '( ("BOOST_ASIO_DETAIL_REACTIVE_DESCRIPTOR_SERVICE_HPP" variable (:constant-flag t) nil [396 445])
+            ("boost/asio/detail/config.hpp" include (:system-flag t) nil [556 595])
+            ("boost/asio/buffer.hpp" include (:system-flag t) nil [703 735])
+            ("boost/asio/execution_context.hpp" include (:system-flag t) nil [736 779])
+            ("boost/asio/detail/bind_handler.hpp" include (:system-flag t) nil [780 825])
+            ("boost/asio/detail/buffer_sequence_adapter.hpp" include (:system-flag t) nil [826 882])
+            ("boost/asio/detail/descriptor_ops.hpp" include (:system-flag t) nil [883 930])
+            ("boost/asio/detail/descriptor_read_op.hpp" include (:system-flag t) nil [931 982])
+            ("boost/asio/detail/descriptor_write_op.hpp" include (:system-flag t) nil [983 1035])
+            ("boost/asio/detail/fenced_block.hpp" include (:system-flag t) nil [1036 1081])
+            ("boost/asio/detail/memory.hpp" include (:system-flag t) nil [1082 1121])
+            ("boost/asio/detail/noncopyable.hpp" include (:system-flag t) nil [1122 1166])
+            ("boost/asio/detail/reactive_null_buffers_op.hpp" include (:system-flag t) nil [1167 1224])
+            ("boost/asio/detail/reactive_wait_op.hpp" include (:system-flag t) nil [1225 1274])
+            ("boost/asio/detail/reactor.hpp" include (:system-flag t) nil [1275 1315])
+            ("boost/asio/posix/descriptor_base.hpp" include (:system-flag t) nil [1316 1363])
+            ("boost/asio/detail/push_options.hpp" include (:system-flag t) nil [1365 1410])
+            ("boost" type
+               (:members 
+                  ( ("asio" type
+                       (:members 
+                          ( ("detail" type
+                               (:members 
+                                  ( ("reactive_descriptor_service" type
+                                       (:superclasses 
+                                          ( ("execution_context_service_base" type
+                                               (:protection "public"
+                                                :type "class")
+                                                nil nil))                                          
+                                        :members 
+                                          ( ("public" label nil (reparse-symbol classsubparts) [1574 1581])
+                                            ("native_handle_type" type
+                                               (:typedef ("int")
+                                                :type "typedef")
+                                                (reparse-symbol classsubparts) [1622 1653])
+                                            ("implementation_type" type
+                                               (:superclasses 
+                                                  ( ("boost::asio::detail::noncopyable" type
+                                                       (:protection "private"
+                                                        :type "class")
+                                                        nil nil))                                                  
+                                                :members 
+                                                  ( ("public" label nil (reparse-symbol classsubparts) [1784 1791])
+                                                    ("implementation_type" function
+                                                       (:constructor-flag t
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol classsubparts) [1824 1900])
+                                                    ("private" label nil (reparse-symbol classsubparts) [1904 1912])
+                                                    ("reactive_descriptor_service" friend nil (reparse-symbol classsubparts) [1983 2023])
+                                                    ("descriptor_" variable (:type "int") (reparse-symbol classsubparts) [2075 2091])
+                                                    ("state_" variable (:type ("descriptor_ops::state_type" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2141 2175])
+                                                    ("reactor_data_" variable (:type ("reactor::per_descriptor_data" type (:type "class") nil nil)) (reparse-symbol classsubparts) [2229 2272]))                                                  
+                                                :type "class")
+                                                (reparse-symbol classsubparts) [1705 2277])
+                                            ("reactive_descriptor_service" function
+                                               (:prototype-flag t
+                                                :constructor-flag t
+                                                :arguments 
+                                                  ( ("context" variable
+                                                       (:reference 1
+                                                        :type ("execution_context" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2343 2370]))                                                  
+                                                :type ("BOOST_ASIO_DECL" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [2299 2371])
+                                            ("shutdown" function
+                                               (:prototype-flag t
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2459 2475])
+                                            ("construct" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2558 2584]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2543 2585])
+                                            ("BOOST_ASIO_NOEXCEPT" variable (:type "int") (reparse-symbol classsubparts) [2744 2764])
+                                            ("move_assign" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2858 2884])
+                                                    ("other_service" variable
+                                                       (:reference 1
+                                                        :type ("reactive_descriptor_service" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2891 2934])
+                                                    ("other_impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [2941 2973]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [2841 2974])
+                                            ("destroy" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3049 3075]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [3036 3076])
+                                            ("assign" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3193 3219])
+                                                    ("native_descriptor" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("native_handle_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3226 3270])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3277 3307]))                                                  
+                                                :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3160 3308])
+                                            ("is_open" function
+                                               (:methodconst-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3372 3404]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [3359 3453])
+                                            ("close" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3547 3573])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3580 3610]))                                                  
+                                                :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3515 3611])
+                                            ("native_handle" function
+                                               (:methodconst-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3695 3727]))                                                  
+                                                :type ("native_handle_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3662 3770])
+                                            ("release" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [3881 3907]))                                                  
+                                                :type ("native_handle_type" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3854 3908])
+                                            ("cancel" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4020 4046])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4053 4083]))                                                  
+                                                :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [3987 4084])
+                                            ("io_control" function
+                                               (:template 
+                                                  ( ("IO_Control_Command" type (:type "class") nil nil))                                                  
+                                                :type ("boost::system::error_code" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4220 4246])
+                                                    ("command" variable
+                                                       (:reference 1
+                                                        :type ("IO_Control_Command" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4253 4281])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4282 4312]))                                                  )
+                                                (reparse-symbol classsubparts) [4142 4467])
+                                            ("non_blocking" function
+                                               (:methodconst-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4540 4572]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [4522 4657])
+                                            ("non_blocking" function
+                                               (:arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4751 4777])
+                                                    ("mode" variable (:type "bool") (reparse-symbol arg-sub-list) [4784 4794])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [4795 4825]))                                                  
+                                                :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [4712 4941])
+                                            ("native_non_blocking" function
+                                               (:methodconst-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5043 5075]))                                                  
+                                                :type "bool")
+                                                (reparse-symbol classsubparts) [5018 5160])
+                                            ("native_non_blocking" function
+                                               (:arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5283 5309])
+                                                    ("mode" variable (:type "bool") (reparse-symbol arg-sub-list) [5316 5326])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5327 5357]))                                                  
+                                                :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5237 5477])
+                                            ("wait" function
+                                               (:arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5624 5650])
+                                                    ("w" variable (:type ("posix::descriptor_base::wait_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [5657 5693])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [5694 5724]))                                                  
+                                                :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [5593 6229])
+                                            ("async_wait" function
+                                               (:template 
+                                                  ( ("Handler" type (:type "class") nil nil)
+                                                    ("IoExecutor" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6427 6453])
+                                                    ("w" variable (:type ("posix::descriptor_base::wait_type" type (:type "class") nil nil)) (reparse-symbol arg-sub-list) [6460 6496])
+                                                    ("handler" variable
+                                                       (:reference 1
+                                                        :type ("Handler" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6503 6520])
+                                                    ("io_ex" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("IoExecutor" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [6521 6545]))                                                  )
+                                                (reparse-symbol classsubparts) [6360 7646])
+                                            ("write_some" function
+                                               (:template 
+                                                  ( ("ConstBufferSequence" type (:type "class") nil nil))                                                  
+                                                :type ("size_t" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7750 7776])
+                                                    ("buffers" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("ConstBufferSequence" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7783 7818])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [7819 7849]))                                                  )
+                                                (reparse-symbol classsubparts) [7690 8362])
+                                            ("write_some" function
+                                               (:arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8438 8464])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("null_buffers" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8471 8491])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8492 8522]))                                                  
+                                                :type ("size_t" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [8420 8656])
+                                            ("async_write_some" function
+                                               (:template 
+                                                  ( ("ConstBufferSequence" type (:type "class") nil nil)
+                                                    ("Handler" type (:type "class") nil nil)
+                                                    ("IoExecutor" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8884 8910])
+                                                    ("buffers" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("ConstBufferSequence" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8917 8952])
+                                                    ("handler" variable
+                                                       (:reference 1
+                                                        :type ("Handler" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8953 8970])
+                                                    ("io_ex" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("IoExecutor" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [8977 9001]))                                                  )
+                                                (reparse-symbol classsubparts) [8781 9760])
+                                            ("async_write_some" function
+                                               (:template 
+                                                  ( ("Handler" type (:type "class") nil nil)
+                                                    ("IoExecutor" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9913 9939])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("null_buffers" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9946 9966])
+                                                    ("handler" variable
+                                                       (:reference 1
+                                                        :type ("Handler" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9967 9984])
+                                                    ("io_ex" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("IoExecutor" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [9985 10009]))                                                  )
+                                                (reparse-symbol classsubparts) [9840 10636])
+                                            ("read_some" function
+                                               (:template 
+                                                  ( ("MutableBufferSequence" type (:type "class") nil nil))                                                  
+                                                :type ("size_t" type (:type "class") nil nil)
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [10772 10798])
+                                                    ("buffers" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("MutableBufferSequence" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [10805 10842])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [10843 10873]))                                                  )
+                                                (reparse-symbol classsubparts) [10711 11388])
+                                            ("read_some" function
+                                               (:arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [11460 11486])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("null_buffers" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [11493 11513])
+                                                    ("ec" variable
+                                                       (:reference 1
+                                                        :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [11514 11544]))                                                  
+                                                :type ("size_t" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [11443 11677])
+                                            ("async_read_some" function
+                                               (:template 
+                                                  ( ("MutableBufferSequence" type (:type "class") nil nil)
+                                                    ("Handler" type (:type "class") nil nil)
+                                                    ("IoExecutor" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [11926 11952])
+                                                    ("buffers" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("MutableBufferSequence" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [11959 11996])
+                                                    ("handler" variable
+                                                       (:reference 1
+                                                        :type ("Handler" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [12003 12020])
+                                                    ("io_ex" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("IoExecutor" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [12021 12045]))                                                  )
+                                                (reparse-symbol classsubparts) [11816 12807])
+                                            ("async_read_some" function
+                                               (:template 
+                                                  ( ("Handler" type (:type "class") nil nil)
+                                                    ("IoExecutor" type (:type "class") nil nil))                                                  
+                                                :type "void"
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [12934 12960])
+                                                    ("" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("null_buffers" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [12967 12987])
+                                                    ("handler" variable
+                                                       (:reference 1
+                                                        :type ("Handler" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [12988 13005])
+                                                    ("io_ex" variable
+                                                       (:reference 1
+                                                        :constant-flag t
+                                                        :type ("IoExecutor" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [13006 13030]))                                                  )
+                                                (reparse-symbol classsubparts) [12862 13655])
+                                            ("private" label nil (reparse-symbol classsubparts) [13657 13665])
+                                            ("start_op" function
+                                               (:prototype-flag t
+                                                :arguments 
+                                                  ( ("impl" variable
+                                                       (:reference 1
+                                                        :type ("implementation_type" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [13737 13763])
+                                                    ("op_type" variable (:type "int") (reparse-symbol arg-sub-list) [13764 13776])
+                                                    ("op" variable
+                                                       (:pointer 1
+                                                        :type ("reactor_op" type (:type "class") nil nil))
+                                                        (reparse-symbol arg-sub-list) [13783 13798])
+                                                    ("is_continuation" variable (:type "bool") (reparse-symbol arg-sub-list) [13799 13820])
+                                                    ("is_non_blocking" variable (:type "bool") (reparse-symbol arg-sub-list) [13821 13842])
+                                                    ("noop" variable (:type "bool") (reparse-symbol arg-sub-list) [13843 13853]))                                                  
+                                                :type "void")
+                                                (reparse-symbol classsubparts) [13723 13854])
+                                            ("reactor_" variable (:type ("reactor" type (:type "class") nil nil)) (reparse-symbol classsubparts) [13928 13946])
+                                            ("success_ec_" variable
+                                               (:constant-flag t
+                                                :type ("boost::system::error_code" type (:type "class") nil nil))
+                                                (reparse-symbol classsubparts) [14015 14059]))                                          
+                                        :type "class")
+                                        (reparse-symbol namespacesubparts) [1467 14062]))                                  
+                                :type "namespace")
+                                (reparse-symbol namespacesubparts) [1447 14065]))                          
+                        :type "namespace")
+                        (reparse-symbol namespacesubparts) [1430 14087]))                  
+                :type "namespace")
+                nil [1412 14107])
+            ("boost/asio/detail/pop_options.hpp" include (:system-flag t) nil [14128 14172]))          
+      :file "reactive_descriptor_service.hpp"
+      :pointmax 14508
+      :fsize 14507
+      :lastmodtime '(24539 57052 722989 920000)
+      :unmatched-syntax '((symbol 13707 . 13722) (symbol 3971 . 3986) (symbol 3838 . 3853) (symbol 3499 . 3514) (symbol 3144 . 3159) (symbol 3020 . 3035) (symbol 2825 . 2840) (semantic-list 2677 . 2743) (symbol 2663 . 2677) (VOID 2658 . 2662) (symbol 2642 . 2657) (symbol 2527 . 2542) (symbol 2443 . 2458) (punctuation 2023 . 2024) (punctuation 2023 . 2024) (semantic-list 689 . 701) (symbol 682 . 689) (punctuation 681 . 682) (punctuation 679 . 680) (punctuation 678 . 679) (semantic-list 645 . 673) (symbol 638 . 645) (punctuation 637 . 638) (punctuation 635 . 636) (punctuation 634 . 635))
+      :lexical-table 
+        '(("BOOST_ASIO_DETAIL_REACTIVE_DESCRIPTOR_SERVICE_HPP")
+          )
+))
+  :file "!home!axius!sh-central-suite!externals!servoi!externals!boost!boost!asio!detail!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

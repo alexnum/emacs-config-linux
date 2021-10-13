@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "config.json"
+      :pointmax 76
+      :fsize 75
+      :lastmodtime '(24921 63001 938569 66000)
+      :unmatched-syntax nil))
+  :file "!home!axius!gow!src!pitaya-proxy-gui!build!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

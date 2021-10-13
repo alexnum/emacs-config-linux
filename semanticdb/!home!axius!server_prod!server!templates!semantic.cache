@@ -1,0 +1,48 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode html-mode
+      :tags 
+        '( ("CLIENTE" section nil nil [435 1897]))          
+      :file "process_status_by_type.ejs"
+      :pointmax 1897
+      :fsize 1913
+      :lastmodtime '(24574 6386 677844 843000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode html-mode
+      :tags 
+        '( ("ADVOCACIA" section (:members 
+              ( ("CONTRATO DE HONORÁRIOS
+        ADVOCATÍCIOS" section nil nil [18222 22157]))              ) nil [664 22157]))          
+      :file "contrato_1.ejs"
+      :pointmax 22157
+      :fsize 22035
+      :lastmodtime '(24718 53874 947275 988000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("CONTRATO DE HONORÁRIOS ADVOCATÍCIOS" section (:members 
+              ( ("CONTRATO DE HONORÁRIOS ADVOCATÍCIOS" section nil nil [17802 22022]))              ) nil [364 22022]))          
+      :file "contrato_incapaz.ejs"
+      :pointmax 22022
+      :fsize 21931
+      :lastmodtime '(24655 23706 135697 943000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("DECLARAÇÃO DE HIPOSSUFICIÊNCIA" section (:members 
+              ( ("DECLARAÇÃO DE HIPOSSUFICIÊNCIA" section nil nil [31 1463]))              ) nil [23 1463]))          
+      :file "declaracao.ejs"
+      :pointmax 1463
+      :fsize 1518
+      :lastmodtime '(24534 22633 816112 188000)
+      :unmatched-syntax nil))
+  :file "!home!axius!server_prod!server!templates!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

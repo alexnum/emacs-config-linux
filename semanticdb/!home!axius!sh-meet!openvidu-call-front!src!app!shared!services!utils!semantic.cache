@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "utils.service.ts"
+      :pointmax 7377
+      :fsize 7376
+      :lastmodtime '(24896 57326 139594 29000)
+      :unmatched-syntax '((PAREN_BLOCK 676 . 701) (BRACE_BLOCK 8 . 22) (VARIABLE 23 . 27) (STRING 28 . 43) (VARIABLE 45 . 51) (BRACE_BLOCK 52 . 95) (VARIABLE 96 . 100) (STRING 101 . 127) (VARIABLE 129 . 135) (BRACE_BLOCK 136 . 160) (VARIABLE 161 . 165) (STRING 166 . 220) (VARIABLE 222 . 228) (BRACE_BLOCK 229 . 252) (VARIABLE 253 . 257) (STRING 258 . 310) (VARIABLE 312 . 318) (BRACE_BLOCK 319 . 339) (VARIABLE 340 . 344) (STRING 345 . 366) (VARIABLE 368 . 374) (BRACE_BLOCK 375 . 390) (VARIABLE 391 . 395) (STRING 396 . 421) (VARIABLE 423 . 429) (BRACE_BLOCK 430 . 456) (VARIABLE 457 . 461) (STRING 462 . 486) (VARIABLE 489 . 495) (VARIABLE 496 . 506) (VARIABLE 507 . 511) (STRING 512 . 530) (VARIABLE 532 . 538) (BRACE_BLOCK 539 . 560) (VARIABLE 561 . 565) (STRING 566 . 592) (VARIABLE 594 . 600) (BRACE_BLOCK 601 . 609) (VARIABLE 610 . 614) (STRING 615 . 619) (VARIABLE 621 . 627) (BRACE_BLOCK 628 . 637) (VARIABLE 638 . 642) (STRING 643 . 663) (punctuation 665 . 666))))
+  :file "!home!axius!sh-meet!openvidu-call-front!src!app!shared!services!utils!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

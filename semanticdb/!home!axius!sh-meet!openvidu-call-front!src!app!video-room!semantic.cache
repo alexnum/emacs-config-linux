@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags nil
+      :file "video-room.component.html"
+      :pointmax 3156
+      :fsize 3155
+      :lastmodtime '(24898 22304 783921 743000)
+      :unmatched-syntax nil))
+  :file "!home!axius!sh-meet!openvidu-call-front!src!app!video-room!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,17 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("{{ data.header }}" section nil nil [8 249]))          
+      :file "dialog-error.component.html"
+      :pointmax 249
+      :fsize 248
+      :lastmodtime '(24824 30448 400015 247000)
+      :unmatched-syntax nil))
+  :file "!home!axius!sh-meet!openvidu-call-front!src!app!shared!components!dialog-error!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

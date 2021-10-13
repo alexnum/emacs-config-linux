@@ -1,0 +1,241 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("manager" variable nil nil [103 115]))          
+      :file "VisitAgentService.js"
+      :pointmax 871
+      :fsize 870
+      :lastmodtime '(24649 21056 5693 713000)
+      :unmatched-syntax '((VARIABLE 116 . 121) (VARIABLE 122 . 125) (PAREN_BLOCK 135 . 142)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("installationId" variable nil nil [345 364]))          
+      :file "BootstrapService.js"
+      :pointmax 11714
+      :fsize 11713
+      :lastmodtime '(24843 2987 679675 885000)
+      :unmatched-syntax '((VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129) (VARIABLE 266 . 271) (VARIABLE 272 . 276) (PAREN_BLOCK 286 . 294) (VARIABLE 240 . 245) (VARIABLE 246 . 248) (PAREN_BLOCK 258 . 264) (VAR 206 . 209) (PAREN_BLOCK 226 . 237) (VAR 172 . 175) (PAREN_BLOCK 193 . 204) (VAR 131 . 134) (PAREN_BLOCK 153 . 170) (VARIABLE 39 . 49) (VARIABLE 61 . 66) (VARIABLE 67 . 80) (VAR 96 . 99) (PAREN_BLOCK 112 . 129)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("copyFileToDocument" function (:arguments 
+              ( ("patient" variable nil (reparse-symbol FormalParameterList) [2505 2512])
+                ("localFilePath" variable nil (reparse-symbol FormalParameterList) [2514 2527]))              ) nil [2477 3115])
+            ("copyFile" function (:arguments 
+              ( ("origFile" variable nil (reparse-symbol FormalParameterList) [3135 3143])
+                ("destFile" variable nil (reparse-symbol FormalParameterList) [3145 3153]))              ) nil [3117 3610]))          
+      :file "DocumentService.js"
+      :pointmax 3611
+      :fsize 3610
+      :lastmodtime '(24818 1901 231908 448000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "RecoverService.js"
+      :pointmax 4343
+      :fsize 4342
+      :lastmodtime '(24649 21055 981693 502000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("getPort" function nil nil [3693 4021])
+            ("getIPAddress" function nil nil [4023 4404])
+            ("encrypt" function (:arguments 
+              ( ("raw" variable nil (reparse-symbol FormalParameterList) [4425 4428]))              ) nil [4408 4671])
+            ("decrypt" function (:arguments 
+              ( ("encrypted" variable nil (reparse-symbol FormalParameterList) [4691 4700]))              ) nil [4674 4946])
+            ("getEntityName" function (:arguments 
+              ( ("entityCode" variable nil (reparse-symbol FormalParameterList) [4971 4981]))              ) nil [4948 5232]))          
+      :file "QrCodeService.js"
+      :pointmax 5233
+      :fsize 5235
+      :lastmodtime '(24649 21055 981693 502000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("tmpDir" variable nil nil [2291 2302])
+            ("extractDeviceFromMeasurement" function (:arguments 
+              ( ("measurement" variable nil (reparse-symbol FormalParameterList) [41448 41459]))              ) nil [41410 41731])
+            ("parsePacket" function (:arguments 
+              ( ("packetData" variable nil (reparse-symbol FormalParameterList) [41798 41808])
+                ("device" variable nil (reparse-symbol FormalParameterList) [41810 41816])
+                ("packetSubtype" variable nil (reparse-symbol FormalParameterList) [41818 41831]))              ) nil [41777 42277])
+            ("parseDiuresisPacket" function (:arguments 
+              ( ("jsonPacketData" variable nil (reparse-symbol FormalParameterList) [42308 42322]))              ) nil [42279 43274])
+            ("parseScorePacket" function (:arguments 
+              ( ("jsonPacketData" variable nil (reparse-symbol FormalParameterList) [43302 43316]))              ) nil [43276 43346])
+            ("parseIPPacket" function (:arguments 
+              ( ("jsonPacketData" variable nil (reparse-symbol FormalParameterList) [43371 43385]))              ) nil [43348 45395])
+            ("parseMPMPacket" function (:arguments 
+              ( ("jsonPacketData" variable nil (reparse-symbol FormalParameterList) [45422 45436])
+                ("subtype" variable nil (reparse-symbol FormalParameterList) [45438 45445])
+                ("device" variable nil (reparse-symbol FormalParameterList) [45447 45453]))              ) nil [45397 46011])
+            ("readDatabase" function (:arguments 
+              ( ("conn" variable nil (reparse-symbol FormalParameterList) [46085 46089])
+                ("device" variable nil (reparse-symbol FormalParameterList) [46091 46097])
+                ("startDate" variable nil (reparse-symbol FormalParameterList) [46099 46108])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [46110 46117])
+                ("isOnEdge" variable nil (reparse-symbol FormalParameterList) [46119 46127]))              ) nil [46063 46687])
+            ("findDatabases" function (:arguments 
+              ( ("start" variable nil (reparse-symbol FormalParameterList) [46781 46786])
+                ("end" variable nil (reparse-symbol FormalParameterList) [46788 46791])
+                ("deviceId" variable nil (reparse-symbol FormalParameterList) [46793 46801])
+                ("patientId" variable nil (reparse-symbol FormalParameterList) [46803 46812])
+                ("deviceType" variable nil (reparse-symbol FormalParameterList) [46814 46824])
+                ("serialNumber" variable nil (reparse-symbol FormalParameterList) [46826 46838]))              ) nil [46758 48971])
+            ("decompressDatabase" function (:arguments 
+              ( ("databaseFilename" variable nil (reparse-symbol FormalParameterList) [49052 49068]))              ) nil [49024 49607])
+            ("extractFileInfo" function (:arguments 
+              ( ("filePath" variable nil (reparse-symbol FormalParameterList) [49634 49642]))              ) nil [49609 49970])
+            ("extractFilename" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol FormalParameterList) [50072 50080]))              ) nil [50047 50121])
+            ("createTempFile" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol FormalParameterList) [50187 50195])
+                ("filecontent" variable nil (reparse-symbol FormalParameterList) [50197 50208]))              ) nil [50163 50432])
+            ("openDatabase" function (:arguments 
+              ( ("fullFilename" variable nil (reparse-symbol FormalParameterList) [50590 50602]))              ) nil [50568 50963])
+            ("getTempFile" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol FormalParameterList) [51093 51101]))              ) nil [51072 51571])
+            ("getFirstResumeData" function (:arguments 
+              ( ("patientId" variable nil (reparse-symbol FormalParameterList) [51601 51610])
+                ("deviceType" variable nil (reparse-symbol FormalParameterList) [51612 51622])
+                ("serialNumber" variable nil (reparse-symbol FormalParameterList) [51624 51636]))              ) nil [51573 52167])
+            ("hasTempFile" function (:arguments 
+              ( ("filename" variable nil (reparse-symbol FormalParameterList) [52247 52255]))              ) nil [52226 52605])
+            ("getPatientInfo" function (:arguments 
+              ( ("patientId" variable nil (reparse-symbol FormalParameterList) [52746 52755]))              ) nil [52722 53529])
+            ("parseManualBalanceByShift" function (:arguments 
+              ( ("startDate" variable nil (reparse-symbol FormalParameterList) [53566 53575])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [53577 53584])
+                ("events" variable nil (reparse-symbol FormalParameterList) [53586 53592])
+                ("room" variable nil (reparse-symbol FormalParameterList) [53594 53598])
+                ("timezone" variable nil (reparse-symbol FormalParameterList) [53600 53608]))              ) nil [53531 54012])
+            ("createTemplate" function (:arguments 
+              ( ("shift" variable nil (reparse-symbol FormalParameterList) [54573 54578]))              ) nil [54549 55052])
+            ("createTableRow" function (:arguments 
+              ( ("count" variable nil (reparse-symbol FormalParameterList) [55227 55232]))              ) nil [55203 55345])
+            ("createEmptyShiftValue" function nil nil [55347 55417])
+            ("aggregateEventsByShift" function (:arguments 
+              ( ("result" variable nil (reparse-symbol FormalParameterList) [55636 55642])
+                ("events" variable nil (reparse-symbol FormalParameterList) [55644 55650])
+                ("startDate" variable nil (reparse-symbol FormalParameterList) [55652 55661])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [55663 55670]))              ) nil [55604 58946])
+            ("getNextShift" function (:arguments 
+              ( ("timestamp" variable nil (reparse-symbol FormalParameterList) [59144 59153])
+                ("period" variable nil (reparse-symbol FormalParameterList) [59155 59161]))              ) nil [59122 59271])
+            ("getShiftInfo" function (:arguments 
+              ( ("timestamp" variable nil (reparse-symbol FormalParameterList) [59600 59609])
+                ("shiftInfo" variable nil (reparse-symbol FormalParameterList) [59611 59620]))              ) nil [59578 60283])
+            ("adjustHour" function (:arguments 
+              ( ("value" variable nil (reparse-symbol FormalParameterList) [60384 60389]))              ) nil [60364 60440])
+            ("getHourOfShiftStart" function (:arguments 
+              ( ("hour" variable nil (reparse-symbol FormalParameterList) [60689 60693])
+                ("start" variable nil (reparse-symbol FormalParameterList) [60695 60700])
+                ("duration" variable nil (reparse-symbol FormalParameterList) [60702 60710]))              ) nil [60660 60966])
+            ("getShiftTemplate" function (:arguments 
+              ( ("timestamp" variable nil (reparse-symbol FormalParameterList) [61289 61298])
+                ("shiftInfo" variable nil (reparse-symbol FormalParameterList) [61300 61309]))              ) nil [61263 63035])
+            ("getFirstShiftOfDay" function (:arguments 
+              ( ("timestamp" variable nil (reparse-symbol FormalParameterList) [63234 63243])
+                ("shiftStart" variable nil (reparse-symbol FormalParameterList) [63245 63255]))              ) nil [63206 63450])
+            ("splitEventsByShift" function (:arguments 
+              ( ("events" variable nil (reparse-symbol FormalParameterList) [63659 63665])
+                ("shift" variable nil (reparse-symbol FormalParameterList) [63667 63672])
+                ("startDate" variable nil (reparse-symbol FormalParameterList) [63674 63683])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [63685 63692])
+                ("sources" variable nil (reparse-symbol FormalParameterList) [63694 63701]))              ) nil [63631 64041])
+            ("hourDiffToGroup" function (:arguments 
+              ( ("startDate" variable nil (reparse-symbol FormalParameterList) [64068 64077])
+                ("hourInterval" variable nil (reparse-symbol FormalParameterList) [64079 64091]))              ) nil [64043 64311])
+            ("retrieveTrendByHour" function (:arguments 
+              ( ("patientId" variable nil (reparse-symbol FormalParameterList) [64342 64351])
+                ("deviceType" variable nil (reparse-symbol FormalParameterList) [64353 64363])
+                ("startDate" variable nil (reparse-symbol FormalParameterList) [64365 64374])
+                ("endDate" variable nil (reparse-symbol FormalParameterList) [64376 64383])
+                ("hourInterval" variable nil (reparse-symbol FormalParameterList) [64385 64397])
+                ("minSubtype" variable nil (reparse-symbol FormalParameterList) [64399 64409]))              ) nil [64313 65776])
+            ("parseShiftEvents" function (:arguments 
+              ( ("events" variable nil (reparse-symbol FormalParameterList) [65941 65947])
+                ("unit" variable nil (reparse-symbol FormalParameterList) [65949 65953])
+                ("startTs" variable nil (reparse-symbol FormalParameterList) [65955 65962])
+                ("endTs" variable nil (reparse-symbol FormalParameterList) [65964 65969])
+                ("shift" variable nil (reparse-symbol FormalParameterList) [65971 65976]))              ) nil [65915 66850]))          
+      :file "MeasurementService.js"
+      :pointmax 66851
+      :fsize 66850
+      :lastmodtime '(24793 47285 136534 296000)
+      :unmatched-syntax '((SEMICOLON 40770 . 40771) (VARIABLE 40773 . 40779) (FUNCTION 40814 . 40822) (PAREN_BLOCK 40822 . 40895) (SEMICOLON 39712 . 39713) (VARIABLE 39715 . 39721) (FUNCTION 39759 . 39767) (PAREN_BLOCK 39767 . 39798) (VARIABLE 38342 . 38348) (FUNCTION 38386 . 38394) (PAREN_BLOCK 38394 . 38434) (GREATER_THAN 37288 . 37289) (ASSIGN_SYMBOL 37287 . 37288) (SEMICOLON 37201 . 37202) (VARIABLE 37204 . 37210) (PAREN_BLOCK 37245 . 37286) (SEMICOLON 33739 . 33740) (VARIABLE 33742 . 33748) (FUNCTION 33775 . 33783) (PAREN_BLOCK 33783 . 33865) (VARIABLE 32526 . 32532) (FUNCTION 32559 . 32567) (PAREN_BLOCK 32567 . 32667) (VARIABLE 32226 . 32232) (FUNCTION 32262 . 32270) (PAREN_BLOCK 32270 . 32292) (VARIABLE 31891 . 31897) (FUNCTION 31939 . 31947) (PAREN_BLOCK 31947 . 31969) (VARIABLE 31558 . 31564) (FUNCTION 31605 . 31613) (PAREN_BLOCK 31613 . 31635) (VARIABLE 31238 . 31244) (FUNCTION 31287 . 31295) (PAREN_BLOCK 31295 . 31317) (SEMICOLON 30681 . 30682) (VARIABLE 30684 . 30690) (FUNCTION 30722 . 30730) (PAREN_BLOCK 30730 . 30752) (SEMICOLON 29597 . 29598) (VARIABLE 29600 . 29606) (FUNCTION 29651 . 29659) (PAREN_BLOCK 29659 . 29692) (VARIABLE 27912 . 27918) (FUNCTION 27958 . 27966) (PAREN_BLOCK 27966 . 28011) (VARIABLE 26912 . 26918) (FUNCTION 26948 . 26956) (PAREN_BLOCK 26956 . 27007) (SEMICOLON 26044 . 26045) (VARIABLE 26047 . 26053) (FUNCTION 26089 . 26097) (PAREN_BLOCK 26097 . 26140) (SEMICOLON 25131 . 25132) (VARIABLE 25236 . 25242) (FUNCTION 25270 . 25278) (PAREN_BLOCK 25278 . 25361) (SEMICOLON 22630 . 22631) (VARIABLE 22676 . 22682) (FUNCTION 22716 . 22724) (PAREN_BLOCK 22725 . 22837) (SEMICOLON 20956 . 20957) (VARIABLE 21103 . 21109) (FUNCTION 21147 . 21155) (PAREN_BLOCK 21155 . 21254) (SEMICOLON 19295 . 19296) (VARIABLE 19474 . 19480) (FUNCTION 19514 . 19522) (PAREN_BLOCK 19522 . 19571) (SEMICOLON 18277 . 18278) (VARIABLE 18368 . 18374) (FUNCTION 18395 . 18403) (PAREN_BLOCK 18404 . 18510) (SEMICOLON 17166 . 17167) (VARIABLE 17257 . 17263) (FUNCTION 17284 . 17292) (PAREN_BLOCK 17293 . 17389) (SEMICOLON 12900 . 12901) (VARIABLE 12991 . 12997) (FUNCTION 13018 . 13026) (PAREN_BLOCK 13027 . 13103) (SEMICOLON 10966 . 10967) (VARIABLE 11404 . 11410) (FUNCTION 11431 . 11439) (PAREN_BLOCK 11439 . 11509) (SEMICOLON 10293 . 10294) (VARIABLE 10415 . 10421) (FUNCTION 10460 . 10468) (PAREN_BLOCK 10468 . 10476) (SEMICOLON 9129 . 9130) (VARIABLE 9132 . 9138) (FUNCTION 9187 . 9195) (PAREN_BLOCK 9195 . 9235) (SEMICOLON 8300 . 8301) (VARIABLE 8303 . 8309) (FUNCTION 8347 . 8355) (PAREN_BLOCK 8355 . 8392) (SEMICOLON 6441 . 6442) (VARIABLE 6551 . 6557) (FUNCTION 6581 . 6589) (PAREN_BLOCK 6589 . 6656) (SEMICOLON 5145 . 5146) (VARIABLE 5148 . 5154) (FUNCTION 5193 . 5201) (PAREN_BLOCK 5201 . 5254) (VARIABLE 2419 . 2425) (VARIABLE 2463 . 2469) (VARIABLE 2513 . 2519) (VARIABLE 2563 . 2569) (VARIABLE 2620 . 2626) (VARIABLE 2685 . 2691) (VARIABLE 2722 . 2728) (VARIABLE 2793 . 2799) (VARIABLE 2849 . 2855) (VARIABLE 2901 . 2907) (VARIABLE 2963 . 2969) (VARIABLE 3017 . 3023) (VARIABLE 3068 . 3074) (VARIABLE 3134 . 3140) (VARIABLE 3218 . 3224) (VARIABLE 3304 . 3310) (VARIABLE 3404 . 3410) (VARIABLE 3520 . 3526) (VARIABLE 3639 . 3645) (VARIABLE 3689 . 3695) (VARIABLE 3729 . 3735) (VARIABLE 3775 . 3781) (VARIABLE 3826 . 3832) (VARIABLE 3887 . 3893) (VARIABLE 4061 . 4067) (FUNCTION 4094 . 4102) (PAREN_BLOCK 4102 . 4155) (VARIABLE 2303 . 2305) (PAREN_BLOCK 2313 . 2416) (DOT 2231 . 2232) (VARIABLE 2175 . 2180) (VARIABLE 2181 . 2194) (PAREN_BLOCK 2204 . 2231) (VAR 2140 . 2143) (PAREN_BLOCK 2156 . 2173) (VAR 2106 . 2109) (PAREN_BLOCK 2127 . 2138) (VARIABLE 2073 . 2078) (VARIABLE 2079 . 2080) (PAREN_BLOCK 2090 . 2104) (VAR 2039 . 2042) (PAREN_BLOCK 2060 . 2071) (VAR 2011 . 2014) (PAREN_BLOCK 2029 . 2037) (VAR 1987 . 1990) (PAREN_BLOCK 2003 . 2009) (VARIABLE 187 . 192) (VARIABLE 193 . 209) (VARIABLE 219 . 224) (VARIABLE 225 . 237) (VARIABLE 246 . 251) (VARIABLE 252 . 265) (VARIABLE 279 . 284) (VARIABLE 285 . 296) (VARIABLE 319 . 324) (VARIABLE 325 . 335) (VARIABLE 355 . 360) (VARIABLE 361 . 373) (VARIABLE 383 . 388) (VARIABLE 389 . 401) (VARIABLE 417 . 422) (VARIABLE 423 . 438) (VARIABLE 447 . 452) (VARIABLE 453 . 468) (VARIABLE 478 . 483) (VARIABLE 484 . 502) (VARIABLE 521 . 526) (VARIABLE 527 . 543) (VARIABLE 549 . 554) (VARIABLE 555 . 576) (VARIABLE 582 . 587) (VARIABLE 588 . 605) (VARIABLE 611 . 616) (VARIABLE 617 . 632) (VARIABLE 638 . 643) (VARIABLE 644 . 667) (VARIABLE 673 . 678) (VARIABLE 679 . 699) (VARIABLE 706 . 711) (VARIABLE 712 . 745) (VARIABLE 751 . 756) (VARIABLE 757 . 789) (VARIABLE 795 . 800) (VARIABLE 801 . 841) (VARIABLE 847 . 852) (VARIABLE 853 . 901) (VARIABLE 907 . 912) (VARIABLE 913 . 962) (VARIABLE 969 . 974) (VARIABLE 975 . 990) (VARIABLE 1008 . 1013) (VARIABLE 1014 . 1025) (VARIABLE 1033 . 1038) (VARIABLE 1039 . 1049) (VARIABLE 1061 . 1066) (VARIABLE 1067 . 1089) (VARIABLE 1099 . 1104) (VARIABLE 1105 . 1118) (VARIABLE 1133 . 1138) (VARIABLE 1139 . 1157) (VARIABLE 1166 . 1171) (VARIABLE 1172 . 1187) (VARIABLE 1204 . 1209) (VARIABLE 1210 . 1218) (VARIABLE 1229 . 1234) (VARIABLE 1235 . 1269) (VARIABLE 1323 . 1328) (VARIABLE 1329 . 1355) (VARIABLE 1385 . 1390) (VARIABLE 1391 . 1404) (VARIABLE 1411 . 1416) (VARIABLE 1417 . 1442) (BRACE_BLOCK 1445 . 1487) (SEMICOLON 1487 . 1488) (VARIABLE 1490 . 1495) (VARIABLE 1496 . 1508) (BRACE_BLOCK 1511 . 1698) (SEMICOLON 1698 . 1699) (VARIABLE 1701 . 1706) (VARIABLE 1707 . 1719) (BRACE_BLOCK 1722 . 1915) (SEMICOLON 1915 . 1916) (VARIABLE 1918 . 1923) (VARIABLE 1924 . 1951) (VAR 1959 . 1962) (PAREN_BLOCK 1977 . 1985) (VAR 134 . 137) (PAREN_BLOCK 160 . 185) (DOT 120 . 121) (VARIABLE 78 . 83) (VARIABLE 84 . 100) (PAREN_BLOCK 110 . 120) (VARIABLE 40 . 52) (PAREN_BLOCK 62 . 76)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("createAuditConfirmDeviceToBed" function (:arguments 
+              ( ("userName" variable nil (reparse-symbol FormalParameterList) [15838 15846])
+                ("device" variable nil (reparse-symbol FormalParameterList) [15848 15854])
+                ("bed" variable nil (reparse-symbol FormalParameterList) [15856 15859])
+                ("room" variable nil (reparse-symbol FormalParameterList) [15861 15865])
+                ("patient" variable nil (reparse-symbol FormalParameterList) [15867 15874]))              ) nil [15799 16100])
+            ("createAuditAddDeviceToBed" function (:arguments 
+              ( ("device" variable nil (reparse-symbol FormalParameterList) [16137 16143])
+                ("previousBedId" variable nil (reparse-symbol FormalParameterList) [16145 16158])
+                ("newBed" variable nil (reparse-symbol FormalParameterList) [16160 16166])
+                ("auditInfo" variable nil (reparse-symbol FormalParameterList) [16168 16177]))              ) nil [16102 18134]))          
+      :file "DeviceService.js"
+      :pointmax 18135
+      :fsize 18134
+      :lastmodtime '(24649 21055 953693 252000)
+      :unmatched-syntax '((SEMICOLON 13805 . 13806) (VARIABLE 13808 . 13814) (FUNCTION 13845 . 13853) (PAREN_BLOCK 13854 . 13882) (SEMICOLON 9891 . 9892) (VARIABLE 9894 . 9900) (FUNCTION 9926 . 9934) (PAREN_BLOCK 9935 . 9983) (SEMICOLON 9364 . 9365) (VARIABLE 9367 . 9373) (FUNCTION 9398 . 9406) (PAREN_BLOCK 9406 . 9450) (SEMICOLON 6861 . 6862) (VARIABLE 6864 . 6870) (FUNCTION 6894 . 6902) (PAREN_BLOCK 6902 . 6958) (SEMICOLON 4763 . 4764) (VARIABLE 4766 . 4772) (FUNCTION 4805 . 4813) (PAREN_BLOCK 4813 . 4893) (SEMICOLON 4273 . 4274) (VARIABLE 4276 . 4282) (FUNCTION 4319 . 4327) (PAREN_BLOCK 4327 . 4350) (SEMICOLON 3912 . 3913) (VARIABLE 3915 . 3921) (FUNCTION 3959 . 3967) (PAREN_BLOCK 3967 . 3990) (SEMICOLON 3386 . 3387) (VARIABLE 3389 . 3395) (FUNCTION 3440 . 3448) (PAREN_BLOCK 3448 . 3456) (SEMICOLON 2920 . 2921) (VARIABLE 2923 . 2929) (FUNCTION 2962 . 2970) (PAREN_BLOCK 2970 . 2989) (SEMICOLON 2150 . 2151) (VARIABLE 2153 . 2159) (FUNCTION 2189 . 2197) (PAREN_BLOCK 2197 . 2222) (SEMICOLON 1809 . 1810) (VARIABLE 1812 . 1818) (FUNCTION 1852 . 1860) (PAREN_BLOCK 1860 . 1879) (SEMICOLON 1381 . 1382) (VARIABLE 1384 . 1390) (FUNCTION 1424 . 1432) (PAREN_BLOCK 1432 . 1452) (SEMICOLON 1019 . 1020) (VARIABLE 1022 . 1028) (FUNCTION 1063 . 1071) (PAREN_BLOCK 1071 . 1091) (SEMICOLON 755 . 756) (VARIABLE 758 . 764) (FUNCTION 792 . 800) (PAREN_BLOCK 800 . 809) (VARIABLE 36 . 46) (BRACE_BLOCK 49 . 185) (SEMICOLON 185 . 186) (VARIABLE 188 . 194) (FUNCTION 232 . 240) (PAREN_BLOCK 240 . 245)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("manager" variable nil nil [104 116]))          
+      :file "HL7ExporterService.js"
+      :pointmax 1733
+      :fsize 1732
+      :lastmodtime '(24649 21055 961693 324000)
+      :unmatched-syntax '((VARIABLE 117 . 122) (VARIABLE 123 . 136) (PAREN_BLOCK 146 . 175)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("copyFile" function (:arguments 
+              ( ("source" variable nil (reparse-symbol FormalParameterList) [860 866])
+                ("target" variable nil (reparse-symbol FormalParameterList) [868 874]))              ) nil [842 1152])
+            ("encrypt" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [1172 1175])
+                ("valueToEncrypt" variable nil (reparse-symbol FormalParameterList) [1177 1191]))              ) nil [1155 1362])
+            ("decrypt" function (:arguments 
+              ( ("key" variable nil (reparse-symbol FormalParameterList) [1382 1385])
+                ("valueToDescrypt" variable nil (reparse-symbol FormalParameterList) [1387 1402]))              ) nil [1365 1583])
+            ("restoreConfigBackup" function nil nil [1586 1892])
+            ("saveConfigBackup" function nil nil [1895 2179])
+            ("getComputerMACs" function nil nil [2182 2556])
+            ("reloadConfig" function nil nil [2558 3482])
+            ("cacheCustomerSettings" function (:arguments 
+              ( ("settings" variable nil (reparse-symbol FormalParameterList) [3620 3628])
+                ("settingsToCache" variable nil (reparse-symbol FormalParameterList) [3630 3645]))              ) nil [3589 3924]))          
+      :file "SettingsService.js"
+      :pointmax 19918
+      :fsize 19864
+      :lastmodtime '(24842 59813 49705 265000)
+      :unmatched-syntax '((VAR 417 . 420) (PAREN_BLOCK 441 . 472) (VARIABLE 386 . 391) (VARIABLE 392 . 396) (PAREN_BLOCK 406 . 414) (VARIABLE 352 . 357) (VARIABLE 358 . 364) (PAREN_BLOCK 374 . 384) (VARIABLE 326 . 331) (VARIABLE 332 . 334) (PAREN_BLOCK 344 . 350) (VARIABLE 296 . 301) (VARIABLE 302 . 306) (PAREN_BLOCK 322 . 324) (VARIABLE 255 . 260) (VARIABLE 261 . 270) (PAREN_BLOCK 280 . 294) (VAR 231 . 234) (PAREN_BLOCK 247 . 253) (VAR 199 . 202) (PAREN_BLOCK 219 . 229) (VARIABLE 163 . 168) (VARIABLE 169 . 176) (PAREN_BLOCK 186 . 197) (PAREN_BLOCK 152 . 161) (VAR 417 . 420) (PAREN_BLOCK 441 . 472) (VARIABLE 386 . 391) (VARIABLE 392 . 396) (PAREN_BLOCK 406 . 414) (VARIABLE 352 . 357) (VARIABLE 358 . 364) (PAREN_BLOCK 374 . 384) (VARIABLE 326 . 331) (VARIABLE 332 . 334) (PAREN_BLOCK 344 . 350) (VARIABLE 296 . 301) (VARIABLE 302 . 306) (PAREN_BLOCK 322 . 324) (VARIABLE 255 . 260) (VARIABLE 261 . 270) (PAREN_BLOCK 280 . 294) (VAR 231 . 234) (PAREN_BLOCK 247 . 253) (VAR 199 . 202) (PAREN_BLOCK 219 . 229) (VARIABLE 163 . 168) (VARIABLE 169 . 176) (PAREN_BLOCK 186 . 197) (PAREN_BLOCK 152 . 161)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("manager" variable nil nil [96 108])
+            ("responseWaiter" variable nil nil [109 128]))          
+      :file "HubService.js"
+      :pointmax 1659
+      :fsize 1658
+      :lastmodtime '(24843 3675 310892 473000)
+      :unmatched-syntax '((PAREN_BLOCK 369 . 406) (VARIABLE 183 . 188) (BRACE_BLOCK 189 . 359) (ASSIGN_SYMBOL 360 . 361) (VAR 129 . 132) (BRACE_BLOCK 151 . 153) (SEMICOLON 153 . 154) (VARIABLE 155 . 160) (VARIABLE 161 . 164) (PAREN_BLOCK 174 . 181) (PAREN_BLOCK 369 . 406) (VARIABLE 183 . 188) (BRACE_BLOCK 189 . 359) (ASSIGN_SYMBOL 360 . 361) (VAR 129 . 132) (BRACE_BLOCK 151 . 153) (SEMICOLON 153 . 154) (VARIABLE 155 . 160) (VARIABLE 161 . 164) (PAREN_BLOCK 174 . 181) (PAREN_BLOCK 369 . 406) (VARIABLE 183 . 188) (BRACE_BLOCK 189 . 359) (ASSIGN_SYMBOL 360 . 361) (VAR 129 . 132) (BRACE_BLOCK 151 . 153) (SEMICOLON 153 . 154) (VARIABLE 155 . 160) (VARIABLE 161 . 164) (PAREN_BLOCK 174 . 181) (PAREN_BLOCK 369 . 406) (VARIABLE 183 . 188) (BRACE_BLOCK 189 . 359) (ASSIGN_SYMBOL 360 . 361) (VAR 129 . 132) (BRACE_BLOCK 151 . 153) (SEMICOLON 153 . 154) (VARIABLE 155 . 160) (VARIABLE 161 . 164) (PAREN_BLOCK 174 . 181) (PAREN_BLOCK 369 . 406) (VARIABLE 183 . 188) (BRACE_BLOCK 189 . 359) (ASSIGN_SYMBOL 360 . 361) (VAR 129 . 132) (BRACE_BLOCK 151 . 153) (SEMICOLON 153 . 154) (VARIABLE 155 . 160) (VARIABLE 161 . 164) (PAREN_BLOCK 174 . 181))))
+  :file "!home!axius!sh-central-server!src!api!services!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

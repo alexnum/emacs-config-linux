@@ -1,0 +1,69 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("//import HelloWorld from \"./components/HelloWorld.vue\"
+import Connection from \"./components/Connection.vue\"
+import MessagesList from \"./components/MessagesList.vue\"
+import Settings from \"./components/Settings.vue\"
+
+export default {
+  data: () => ({
+    drawer: false,
+    showExpandButton: false,
+    settingsDialog: false,
+    proxySettings: {
+      proxyPort: '8082',
+      url: '',
+      messageConfig: [{filter: ''}]
+    }
+  }),
+  components: {
+    //HelloWorld,
+    Connection,
+    MessagesList,
+    Settings
+  },
+  props: {
+    source: String
+  },
+  mounted : async function() {
+    try{
+      var settings = await window.backend.loadSettings();
+      var settingsObj = JSON.parse(settings);
+      this.settingsUpdated(settingsObj)
+    } catch(err) {
+      console.error(\"::COULD_NOT_LOAD_SETTINGSFILE::\", this,err);
+    }
+  },
+  methods: {
+    settingsUpdated: async function(newSettings){
+      console.log(this.proxySettings.proxyPort, \"::SETTINGS_NEW_SETTINGS\", newSettings);
+      Object.keys(newSettings).forEach((key)=>{
+	this.proxySettings[key] = newSettings[key];
+      });
+      console.log(\"::NEW_SETTINGS\", this.proxySettings);
+      window.backend.saveSettings(JSON.stringify(this.proxySettings));
+    }
+  }
+}" section nil nil [1668 3046]))          
+      :file "App.vue"
+      :pointmax 3046
+      :fsize 3045
+      :lastmodtime '(24900 58975 303599 378000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "main.js"
+      :pointmax 597
+      :fsize 596
+      :lastmodtime '(24881 32085 122819 484000)
+      :unmatched-syntax '((VARIABLE 292 . 295) (VARIABLE 296 . 300) (STRING 301 . 312) (VARIABLE 315 . 318) (VARIABLE 349 . 352) (VARIABLE 379 . 385) (VARIABLE 386 . 391) (VARIABLE 392 . 396) (STRING 397 . 416) (VARIABLE 419 . 424) (PAREN_BLOCK 429 . 595) (PAREN_BLOCK 273 . 283) (STRING 8 . 24) (VARIABLE 26 . 32) (STRING 33 . 62) (VARIABLE 64 . 70) (STRING 71 . 110) (VARIABLE 112 . 118) (VARIABLE 119 . 122) (VARIABLE 123 . 127) (STRING 128 . 133) (VARIABLE 135 . 141) (VARIABLE 142 . 149) (VARIABLE 150 . 154) (STRING 155 . 164) (VARIABLE 166 . 172) (VARIABLE 173 . 181) (VARIABLE 182 . 186) (STRING 187 . 207) (VARIABLE 209 . 215) (STRING 216 . 246) (VARIABLE 249 . 252) (PAREN_BLOCK 256 . 265))))
+  :file "!home!axius!gow!src!pitaya-proxy-gui!frontend!src!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

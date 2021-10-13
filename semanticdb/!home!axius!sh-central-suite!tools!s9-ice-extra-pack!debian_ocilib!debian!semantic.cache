@@ -1,0 +1,22 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode makefile-gmake-mode
+      :tags 
+        '( ("/usr/share/dpkg/default.mk" include nil nil [21 56])
+            ("package" variable (:default-value ("ocilib")) nil [57 74])
+            ("%" function nil nil [96 108])
+            ("override_dh_auto_install" function nil nil [109 173])
+            ("override_dh_shlibdeps" function nil nil [174 236])
+            ("override_dh_auto_configure" function nil nil [237 411]))          
+      :file "rules"
+      :pointmax 411
+      :fsize 410
+      :lastmodtime '(24536 45303 511985 473000)
+      :unmatched-syntax '((shell-command 266 . 410) (bol 265 . 265))))
+  :file "!home!axius!sh-central-suite!tools!s9-ice-extra-pack!debian_ocilib!debian!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

@@ -1,0 +1,38 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("createSession" function (:arguments 
+              ( ("sessionId" variable nil (reparse-symbol FormalParameterList) [217 226]))              ) nil [194 384])
+            ("joinSession" function (:arguments 
+              ( ("sessionId" variable nil (reparse-symbol FormalParameterList) [407 416])
+                ("isAgent" variable nil (reparse-symbol FormalParameterList) [418 425])
+                ("urlPath" variable nil (reparse-symbol FormalParameterList) [427 434])
+                ("wsConnection" variable nil (reparse-symbol FormalParameterList) [436 448]))              ) nil [386 869])
+            ("getSession" function (:arguments 
+              ( ("sessionId" variable nil (reparse-symbol FormalParameterList) [891 900]))              ) nil [871 938])
+            ("removePeer" function (:arguments 
+              ( ("sessionId" variable nil (reparse-symbol FormalParameterList) [960 969])
+                ("peerId" variable nil (reparse-symbol FormalParameterList) [971 977]))              ) nil [940 1174])
+            ("agentDisconnected" function (:arguments 
+              ( ("sessionId" variable nil (reparse-symbol FormalParameterList) [1203 1212]))              ) nil [1176 1569]))          
+      :file "session.js"
+      :pointmax 1673
+      :fsize 1672
+      :lastmodtime '(24566 63443 913739 630000)
+      :unmatched-syntax '((VAR 166 . 169) (PAREN_BLOCK 188 . 190) (VARIABLE 111 . 116) (VARIABLE 117 . 132) (PAREN_BLOCK 142 . 164) (VARIABLE 82 . 88) (PAREN_BLOCK 98 . 109)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "agent_connection.js"
+      :pointmax 3438
+      :fsize 3437
+      :lastmodtime '(24566 63443 913739 630000)
+      :unmatched-syntax '((VARIABLE 164 . 169) (VARIABLE 170 . 186) (VARIABLE 204 . 209) (VARIABLE 210 . 231) (VARIABLE 249 . 254) (VARIABLE 255 . 278) (VARIABLE 298 . 303) (VARIABLE 304 . 330) (VARIABLE 353 . 358) (VARIABLE 359 . 372) (VARIABLE 383 . 388) (VARIABLE 389 . 404) (VARIABLE 414 . 419) (VARIABLE 420 . 435) (BRACE_BLOCK 436 . 3403) (VARIABLE 3405 . 3411) ($EOI 3438 . 3438) (VARIABLE 112 . 117) (VARIABLE 118 . 134) (PAREN_BLOCK 144 . 162) (VARIABLE 82 . 88) (PAREN_BLOCK 98 . 109))))
+  :file "!home!axius!sh-tele-uti!proxy!server!src!session!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

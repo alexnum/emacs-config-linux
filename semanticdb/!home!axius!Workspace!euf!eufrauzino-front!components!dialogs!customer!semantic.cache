@@ -1,0 +1,111 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode vue-mode
+      :tags 
+        '( ("import {
+  ORGAOS_EXPEDIDORES,
+  GENEROS,
+  ESTADOS_CIVIS,
+  ESTADOS_BRASILEIROS,
+  TYPES_CUSTOMER,
+} from '@/helpers/formConstants'
+export default {
+  props: {
+    show: {
+      type: Boolean,
+      default: false,
+    },
+    customer: {
+      type: Object,
+      default: () => {},
+    },
+    customerId: {
+      type: String,
+      default: '',
+    },
+    isUpdate: {
+      type: Boolean,
+      default: false,
+    },
+    isInfo: {
+      type: Boolean,
+      default: false,
+    },
+  },
+  data() {
+    return {
+      showDialog: false,
+      localCustomer: {},
+      orgaosExpedidores: ORGAOS_EXPEDIDORES,
+      genders: GENEROS,
+      maritalStatus: ESTADOS_CIVIS,
+      estates: ESTADOS_BRASILEIROS,
+      typesCustomer: TYPES_CUSTOMER,
+    }
+  },
+  computed: {
+    titleText() {
+      if (this.isUpdate) {
+        return 'Editar'
+      }
+      if (this.isInfo) {
+        return 'Visualizar'
+      }
+      return 'Cadastrar'
+    },
+    formattedBirthdate: {
+      get() {
+        return this.localCustomer.birthdate ? new Date(this.localCustomer.birthdate).toISOString().slice(0, 10) : null
+      },
+      set(value) {
+        if (this.isUpdate) {
+          this.localCustomer.birthdate = new Date(value)
+        }
+      },
+    },
+  },
+  watch: {
+    show(newValue) {
+      this.showDialog = newValue
+    },
+    customer: {
+      handler(newValue) {
+        this.localCustomer = { ...newValue }
+      },
+      immediate: true,
+    },
+  },
+  methods: {
+    closeDialog() {
+      this.$emit('close')
+    },
+    async saveCustomer() {
+      try {
+        if (this.isUpdate) {
+          await this.$axios.put(
+            `/customers/${this.customerId}`,
+            this.localCustomer
+          )
+          this.$emit('updated')
+        } else {
+          await this.$axios.post('/customers', this.localCustomer)
+          this.$emit('new')
+        }
+      } catch (error) {
+        this.$emit('error')
+      }
+    },
+  },
+}" section nil nil [8515 10478]))          
+      :file "NewCustomerDialog.vue"
+      :pointmax 10478
+      :fsize 10485
+      :lastmodtime '(24880 45205 214086 358000)
+      :unmatched-syntax nil))
+  :file "!home!axius!Workspace!euf!eufrauzino-front!components!dialogs!customer!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

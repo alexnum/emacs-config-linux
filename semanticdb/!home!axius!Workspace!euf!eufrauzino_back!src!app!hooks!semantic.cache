@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "isAuthorized.js"
+      :pointmax 393
+      :fsize 392
+      :lastmodtime '(24870 56405 641935 973000)
+      :unmatched-syntax '((VARIABLE 37 . 43) (FUNCTION 54 . 62) (PAREN_BLOCK 62 . 78) (PAREN_BLOCK 18 . 34) (VARIABLE 37 . 43) (FUNCTION 54 . 62) (PAREN_BLOCK 62 . 78) (PAREN_BLOCK 18 . 34) (VARIABLE 37 . 43) (FUNCTION 54 . 62) (PAREN_BLOCK 62 . 78) (PAREN_BLOCK 18 . 34)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "trackedEntityUpdate.js"
+      :pointmax 161
+      :fsize 160
+      :lastmodtime '(24851 2933 330580 290000)
+      :unmatched-syntax '((VARIABLE 37 . 43) (FUNCTION 54 . 62) (PAREN_BLOCK 62 . 78) (PAREN_BLOCK 18 . 34))))
+  :file "!home!axius!Workspace!euf!eufrauzino_back!src!app!hooks!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

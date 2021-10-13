@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "Gruntfile.js"
+      :pointmax 13031
+      :fsize 13568
+      :lastmodtime '(24546 10602 275633 200000)
+      :unmatched-syntax '((VARIABLE 312 . 318) (FUNCTION 329 . 337) (PAREN_BLOCK 338 . 345) (VARIABLE 261 . 266) (VARIABLE 267 . 277) (PAREN_BLOCK 287 . 309))))
+  :file "!home!axius!client_prod!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

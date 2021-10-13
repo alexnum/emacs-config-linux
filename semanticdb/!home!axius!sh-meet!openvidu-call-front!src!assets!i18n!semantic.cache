@@ -1,0 +1,24 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "pt.json"
+      :pointmax 4116
+      :fsize 4190
+      :lastmodtime '(24867 41845 55716 654000)
+      :unmatched-syntax nil)
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "en.json"
+      :pointmax 3850
+      :fsize 3849
+      :lastmodtime '(24867 41833 27624 584000)
+      :unmatched-syntax nil))
+  :file "!home!axius!sh-meet!openvidu-call-front!src!assets!i18n!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

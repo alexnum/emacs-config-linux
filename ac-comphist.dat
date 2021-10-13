@@ -1,0 +1,604 @@
+((("typeGroups" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("cur" .
+   [4 0 0])
+  ("acc" .
+   [3 0 0])
+  ("reduce" .
+   [1 0 0 0 0 0])
+  ("friendlyName" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("docObj" .
+   [1 0 0 0 0 0])
+  ("user" .
+   [1 0 0 0])
+  ("query" .
+   [1 0 0 0 0])
+  ("filename" .
+   [1 0 0 0 0 0 0 0])
+  ("_id" .
+   [2 0 0])
+  ("deleted" .
+   [1 0 0 0 0 0 0])
+  ("Bucket" .
+   [0 0 1 0 0 0])
+  ("docId" .
+   [2 0 0 0 0])
+  ("dataJuu" .
+   [0 0 0 0 0 2 0])
+  ("onEditableChange" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("boolean" .
+   [1 0 0 0 0 0 0])
+  ("isNew" .
+   [4 0 0 0 0])
+  ("DEFAULTS" .
+   [0 0 0 0 1 0 0 0])
+  ("estimate" .
+   [1 0 0 0 0 0 0 0])
+  ("lower" .
+   [1 0 0 0 0])
+  ("upper" .
+   [1 0 0 0 0])
+  ("||" .
+   [1 0])
+  ("record" .
+   [1 0 0 0 0 0])
+  ("onChange" .
+   [1 0 0 0 0 0 0 0])
+  ("names" .
+   [2 0 0 0 0])
+  ("deadlines" .
+   [1 0 0 0 0 0 0 0 0])
+  ("async" .
+   [2 0 0 0 0])
+  ("maxDate" .
+   [2 0 0 0 0 0 0])
+  ("Deadline" .
+   [1 0 0 0 0 0 0 0])
+  ("today" .
+   [1 0 0 0 0])
+  ("require" .
+   [1 0 0 0 0 0 0])
+  ("DeadlineService" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("pagination" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("ret" .
+   [7 0 0])
+  ("as" .
+   [3 0])
+  ("file" .
+   [3 0 0 0])
+  ("Log" .
+   [1 0 0])
+  ("txt" .
+   [1 0 0])
+  ("targetFile" .
+   [1 0 0 0 0 0 0 0 1 0])
+  ("Date" .
+   [1 0 0 0])
+  ("fileName" .
+   [4 0 0 0 0 0 0 0])
+  ("PASSWORD" .
+   [1 0 0 0 0 0 0 0])
+  ("SH_MEET_URL" .
+   [0 0 1 0 0 0 0 0 0 0 0])
+  ("SESSION_ID" .
+   [1 0 0 0 0 0 0 0 0 0])
+  ("remove" .
+   [1 0 0 0 0 0])
+  ("props" .
+   [8 0 0 0 0])
+  ("this" .
+   [10 0 0 0])
+  ("defaultVars" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("arr" .
+   [1 0 0])
+  ("variable" .
+   [2 0 0 0 0 0 0 0])
+  ("var" .
+   [4 0 0])
+  ("customOptVariables" .
+   [0 0 0 0 0 0 0 0 2 0 0 0 0 0 0 0 0 0])
+  ("tern" .
+   [1 0 0 0])
+  ("nome" .
+   [7 0 0 0])
+  ("toJSON" .
+   [1 0 0 0 0 0])
+  ("rows" .
+   [3 0 0 0])
+  ("pending" .
+   [10 0 0 0 0 0 1])
+  ("calls" .
+   [2 0 0 0 0])
+  ("customer" .
+   [3 0 0 0 0 0 0 0])
+  ("bday" .
+   [12 0 0 0])
+  ("Birthday" .
+   [1 0 0 0 0 0 0 0])
+  ("customerId" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("bdays" .
+   [3 0 0 0 0])
+  ("send" .
+   [2 0 0 0])
+  ("res" .
+   [2 0 0])
+  ("BirthdayReminder" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("newPayment" .
+   [1 0 0 0 0 1 0 0 0 0])
+  ("payment" .
+   [1 0 0 0 0 0 0])
+  ("valueAsText" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("endDateTs" .
+   [1 0 0 0 0 0 0 0 0])
+  ("MIN_ACTION_TYPE_REPORT_DATE" .
+   [0 0 0 2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("startDateTs" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("getTime" .
+   [2 0 0 0 0 0 0])
+  ("groupObj" .
+   [0 0 0 0 0 1 0 0])
+  ("list" .
+   [1 0 0 0])
+  ("processes" .
+   [19 0 0 0 0 0 0 0 0])
+  ("ACTION_TYPE_TITLES" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("title" .
+   [3 0 0 0 0])
+  ("group" .
+   [4 0 0 0 0])
+  ("Object" .
+   [0 0 0 0 1 0])
+  ("process" .
+   [11 0 0 0 0 0 0])
+  ("type" .
+   [2 0 0 0])
+  ("groupedProcesses" .
+   [0 0 0 0 0 0 0 0 0 1 2 0 0 0 0 0])
+  ("host" .
+   [1 0 0 0])
+  ("visitUrl" .
+   [1 0 0 0 0 0 1 0])
+  ("usingLocalConfig" .
+   [0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0])
+  ("validLibStatus" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("lib" .
+   [1 0 0])
+  ("libStatus" .
+   [1 0 0 0 0 1 0 0 0])
+  ("state" .
+   [4 0 0 0 0])
+  ("col-md-4" .
+   [1 0 0 0 0 0 0 0])
+  ("body" .
+   [5 0 0 0])
+  ("number" .
+   [2 0 0 0 0 0])
+  ("lastHosp" .
+   [0 0 0 0 1 0 0 0])
+  ("getLatestHospitalization" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("HospitalizationService" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("Hospitalization" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0])
+  ("c" .
+   [1])
+  ("closedTasyHosps" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("id" .
+   [13 0])
+  ("closeHospitalization" .
+   [1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("hosp" .
+   [3 0 0 0])
+  ("enqueueHospitalizationOpen" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("syncFunction" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("NOME" .
+   [2 0 0 0])
+  ("parsedPatient" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("throw" .
+   [1 0 0 0 0])
+  ("patient" .
+   [14 0 0 0 0 0 0])
+  ("findBedPromise" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("findPatientPromise" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("retrieveBed" .
+   [0 0 0 0 0 0 0 0 0 1 0])
+  ("room" .
+   [4 0 0 0])
+  ("bedNumber" .
+   [2 0 0 0 0 0 0 0 0])
+  ("patientId" .
+   [3 0 0 0 0 0 0 0 0])
+  ("endDate" .
+   [9 0 0 0 0 0 0])
+  ("roomName" .
+   [3 0 0 0 0 0 0 0])
+  ("fullTasyHosps" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("opened" .
+   [1 0 0 0 0 0])
+  ("hospObj" .
+   [3 0 0 0 0 5 0])
+  ("add" .
+   [1 0 0])
+  ("hospOperationsQueue" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("s" .
+   [2])
+  ("println" .
+   [1 0 0 0 0 0 0])
+  ("out" .
+   [1 0 0])
+  ("System" .
+   [1 0 0 0 0 0])
+  ("machineId" .
+   [2 0 0 0 0 0 0 0 0])
+  ("machine" .
+   [1 0 0 0 0 0 0])
+  ("doc" .
+   [1 0 0])
+  ("bed" .
+   [14 0 0])
+  ("decodedToken" .
+   [1 0 0 0 0 0 0 0 0 0 1 1])
+  ("central" .
+   [1 0 0 0 0 0 0])
+  ("catch" .
+   [15 0 0 0 0])
+  ("console" .
+   [31 0 0 0 0 0 0])
+  ("const" .
+   [10 0 0 0 0])
+  ("tracker" .
+   [3 0 0 0 0 1 0])
+  ("StorageService" .
+   [0 0 0 1 0 0 0 1 0 0 0 0 0 0])
+  ("KEY_PENDING_TRACKER" .
+   [0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("storedTrackers" .
+   [0 0 0 0 0 0 1 1 0 0 0 0 0 0])
+  ("err" .
+   [25 0 0])
+  ("true" .
+   [12 0 0 0])
+  ("addTrackerToPending" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("devices" .
+   [2 0 0 0 0 0 0])
+  ("log" .
+   [33 0 0])
+  ("config" .
+   [1 0 0 0 0 0])
+  ("TOKEN_SECRET" .
+   [0 0 0 0 0 1 0 0 0 0 0 0])
+  ("COLLECTION_NAME" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("centralId" .
+   [3 0 0 0 0 0 0 0 0])
+  ("bedId" .
+   [3 0 0 0 0])
+  ("hospitalization" .
+   [1 0 0 1 0 2 1 0 0 0 0 0 0 0 0])
+  ("hospitalizationId" .
+   [2 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1])
+  ("callback" .
+   [1 0 0 0 1 0 1 0])
+  ("null" .
+   [6 0 0 0])
+  ("docs" .
+   [5 0 0 0])
+  ("fetchDocument" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("req" .
+   [13 0 0])
+  ("decoded" .
+   [1 0 0 0 0 0 0])
+  ("fs" .
+   [2 0])
+  ("writeFile" .
+   [1 0 0 0 0 0 0 0 0])
+  ("MACHINE_ID_PATH" .
+   [0 0 0 3 1 0 0 0 0 0 0 0 0 0 0])
+  ("hId" .
+   [2 0 0])
+  ("Promise" .
+   [10 0 0 0 0 0 0])
+  ("resolve" .
+   [21 0 0 0 0 0 0])
+  ("reject" .
+   [24 0 1 0 0 0])
+  ("BOARD_SERIAL_PATH" .
+   [0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("data" .
+   [7 0 0 0])
+  ("retrieveHarwareId" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("then" .
+   [8 0 0 0])
+  ("retrieveMachineId" .
+   [0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("infoFilePath" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("readInfoFile" .
+   [0 0 0 0 0 0 0 2 0 0 0 0])
+  ("promises" .
+   [2 0 0 0 0 0 0 0])
+  ("push" .
+   [5 0 0 0])
+  ("REGISTERED_MACHINE_ID_PATH" .
+   [0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("all" .
+   [2 0 0])
+  ("result" .
+   [8 0 0 0 0 0])
+  ("registeredMachineId" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("sails" .
+   [14 0 0 0 0])
+  ("debug" .
+   [13 0 0 0 0])
+  ("settings" .
+   [7 0 1 0 0 0 0 0])
+  ("SettingsService" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("updateMasterMAC" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 1 0 0])
+  ("checkMasterMac" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("masterSettings" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("sex" .
+   [2 0 0])
+  ("lifeviewPatient" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0 1 0])
+  ("tasyPatient" .
+   [1 0 0 0 0 0 0 0 0 0 0])
+  ("tasyPatientSex" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 2])
+  ("tasyHospObj" .
+   [1 0 0 0 0 0 0 1 1 0 0])
+  ("cpf" .
+   [1 0 0])
+  ("previousHospitalizations" .
+   [0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("oldPatientId" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("newPatientId" .
+   [1 0 0 0 0 0 0 0 0 0 0 0])
+  ("startDate" .
+   [4 0 0 0 0 0 0 0 0])
+  ("openedTasyHosps" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("DAY_IN_MINS" .
+   [1 0 0 0 1 0 0 0 0 0 0])
+  ("increment" .
+   [3 0 0 0 0 2 0 0 0])
+  ("ticksCount" .
+   [0 0 0 0 0 1 0 0 0 0])
+  ("tickMinutes" .
+   [1 0 0 0 0 0 3 0 0 0 0])
+  ("getNextTick" .
+   [0 0 0 0 0 0 1 0 0 0 0])
+  ("baseDateMinutes" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("minutesIncrement" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0])
+  ("nextTickMultiplier" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0])
+  ("$scope" .
+   [1 0 0 1 1 0])
+  ("customerSettings" .
+   [0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("tasy" .
+   [1 0 0 0])
+  ("tasyBaseTime" .
+   [0 0 0 0 0 0 0 0 1 0 0 0])
+  ("baseDate" .
+   [3 0 0 0 0 0 0 0])
+  ("getTasyScheduleTimes" .
+   [0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("tickTimes" .
+   [0 0 0 0 0 0 1 0 0])
+  ("tasySchedule" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("map" .
+   [3 0 0])
+  ("setUTCHours" .
+   [0 0 0 0 0 1 0 0 0 0 0])
+  ("setUTCMinutes" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0])
+  ("MAX_SCHEDULE_TIMES" .
+   [0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("baseTime" .
+   [1 0 0 0 0 0 0 0])
+  ("MINUTES_IN_MS" .
+   [1 0 0 0 0 0 0 0 0 0 0 0 0])
+  ("MINUTE_IN_MS" .
+   [0 0 0 0 1 1 0 0 0 0 0 0])
+  ("now" .
+   [5 0 0])
+  ("date" .
+   [1 0 0 0])
+  ("current" .
+   [3 0 0 0 1 0 0])
+  ("msToNextRun" .
+   [1 0 0 0 0 1 0 0 0 0 0])
+  ("minsToNextRun" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0])
+  ("sessions" .
+   [3 0 0 0 0 0 0 0])
+  ("session" .
+   [2 0 0 0 0 0 0])
+  ("sessionId" .
+   [2 0 0 0 0 0 0 0 0])
+  ("peerJoinedMsg" .
+   [0 0 0 0 0 0 0 0 1 0 0 0 0])
+  ("peerId" .
+   [1 0 0 0 0 1])
+  ("urlPath" .
+   [0 0 0 0 1 0 0])
+  ("peerWs" .
+   [0 0 0 0 0 1])
+  ("on" .
+   [2 0])
+  ("false" .
+   [5 0 0 0 0])
+  ("message" .
+   [3 0 0 0 0 0 0])
+  ("rawMsg" .
+   [1 0 0 0 0 0])
+  ("msgData" .
+   [1 0 0 0 0 0 0])
+  ("keys" .
+   [4 0 0 0])
+  ("peers" .
+   [2 0 0 0 0])
+  ("chartConfig" .
+   [0 0 0 0 0 0 0 0 1 0 0])
+  ("row" .
+   [1 0 0])
+  ("Dygraph" .
+   [0 0 0 0 0 0 1])
+  ("graph" .
+   [5 0 0 0 0])
+  ("length" .
+   [0 0 0 0 0 1])
+  ("lastData" .
+   [1 0 0 0 0 0 2 0])
+  ("lastRow" .
+   [1 0 0 0 0 1 0])
+  ("lastTs" .
+   [1 0 0 0 0 0])
+  ("series" .
+   [6 0 0 0 0 0])
+  ("serie" .
+   [2 0 0 1 0])
+  ("selectLatValues" .
+   [0 0 0 0 0 0 3 0 0 0 0 0 0 0 0])
+  ("forEach" .
+   [2 0 0 0 1 1 0])
+  ("setTimeout" .
+   [0 0 0 0 0 0 0 1 0 0])
+  ("let" .
+   [1 0 0])
+  ("graphsObj" .
+   [0 0 0 0 0 0 0 1 0])
+  ("graphs" .
+   [1 0 0 0 0 0])
+  ("graphKey" .
+   [0 0 0 0 0 0 1 0])
+  ("setChartsSelected" .
+   [0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0])
+  ("replace" .
+   [3 0 0 0 0 0 0])
+  ("replaceAll" .
+   [2 0 0 0 0 0 0 0 0 0])
+  ("split" .
+   [2 0 0 0 0])
+  ("join" .
+   [2 0 0 0])
+  ("key" .
+   [4 0 0])
+  ("obj" .
+   [1 0 0])
+  ("dt_nasc" .
+   [4 0 0 0 0 0 0])
+  ("getDate" .
+   [2 0 0 0 0 0 0])
+  ("aName" .
+   [1 0 0 0 0])
+  ("bName" .
+   [1 0 0 0 0])
+  ("aDay" .
+   [1 0 0 0])
+  ("bDay" .
+   [1 0 0 0])
+  ("dayGroups" .
+   [5 0 0 0 0 1 0 0 0])
+  ("day" .
+   [8 0 0])
+  ("sort" .
+   [2 0 0 0])
+  ("sorted" .
+   [1 0 0 0 0 0])
+  ("showEstimate" .
+   [0 0 0 0 0 0 1 0 0 0 0 0])
+  ("fileUrl" .
+   [2 0 0 0 0 0 0])
+  ("targetLog" .
+   [1 0 0 0 0 0 0 0 0])
+  ("fileSrc" .
+   [1 0 0 0 0 0 0])
+  ("origin" .
+   [1 0 0 0 0 0])
+  ("env" .
+   [1 0 0])
+  ("await" .
+   [2 0 0 0 0])
+  ("entity" .
+   [2 0 0 0 0 0])
+  ("diff" .
+   [2 0 0 0])
+  ("newObj" .
+   [1 0 0 0 0 0])
+  ("entry" .
+   [4 0 0 0 0])
+  ("lastStatus" .
+   [4 0 0 0 0 0 0 0 0 0])
+  ("p1" .
+   [1 0])
+  ("p2" .
+   [1 0])
+  ("raw" .
+   [3 0 0])
+  ("nest" .
+   [1 0 0 0])
+  ("statusStr" .
+   [1 0 0 0 0 0 0 0 0])
+  ("STATUS" .
+   [1 0 0 0 0 0])
+  ("rawDate" .
+   [1 0 0 0 0 0 0])
+  ("users" .
+   [10 0 0 0 1])
+  ("author" .
+   [0 0 2 0 0 0])
+  ("dbProcess" .
+   [0 0 0 2 2 3 0 0 0])
+  ("createdAt" .
+   [2 0 0 0 0 0 0 0 0])
+  ("use" .
+   [1 0 0])
+  ("createdBy" .
+   [2 0 0 0 0 0 0 0 1])
+  ("proc" .
+   [1 0 0 0])
+  ("cliente" .
+   [2 0 0 0 0 0 0])
+  ("try" .
+   [1 0 0])
+  ("property" .
+   [0 0 0 0 0 0 1 0])
+  ("updateBoundable" .
+   [0 0 0 0 0 0 0 0 0 1 0 0 0 0 0])
+  ("value" .
+   [2 0 0 0 0])
+  ("if" .
+   [1 0])))

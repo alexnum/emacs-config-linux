@@ -1,0 +1,16 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "auth.js"
+      :pointmax 1789
+      :fsize 1788
+      :lastmodtime '(24851 6321 223736 972000)
+      :unmatched-syntax '((VARIABLE 8 . 18) (VARIABLE 19 . 23) (STRING 24 . 38) (VARIABLE 39 . 45) (BRACE_BLOCK 46 . 95) (VARIABLE 96 . 100) (STRING 101 . 116) (VARIABLE 136 . 142) (BRACE_BLOCK 143 . 158) (VARIABLE 159 . 163) (STRING 164 . 179) (VARIABLE 181 . 191) (VARIABLE 215 . 221) (VARIABLE 222 . 229) (FUNCTION 230 . 238) (PAREN_BLOCK 239 . 252) (VARIABLE 8 . 18) (VARIABLE 19 . 23) (STRING 24 . 38) (VARIABLE 39 . 45) (BRACE_BLOCK 46 . 95) (VARIABLE 96 . 100) (STRING 101 . 116) (VARIABLE 136 . 142) (BRACE_BLOCK 143 . 158) (VARIABLE 159 . 163) (STRING 164 . 179) (VARIABLE 181 . 191) (VARIABLE 215 . 221) (VARIABLE 222 . 229) (FUNCTION 230 . 238) (PAREN_BLOCK 239 . 252))))
+  :file "!home!axius!Workspace!euf!eufrauzino-front!.nuxt!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

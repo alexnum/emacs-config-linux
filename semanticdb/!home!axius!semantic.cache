@@ -1,0 +1,19 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("ADVOCACIA" section (:members 
+              ( ("CONTRATO DE HONORÁRIOS
+        ADVOCATÍCIOS" section nil nil [18222 22510]))              ) nil [664 22510]))          
+      :file "1615740861416.html"
+      :pointmax 22510
+      :fsize 22557
+      :lastmodtime '(24654 17013 854049 471000)
+      :unmatched-syntax nil))
+  :file "!home!axius!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

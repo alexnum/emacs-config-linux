@@ -1,0 +1,67 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "process.js"
+      :pointmax 3085
+      :fsize 3164
+      :lastmodtime '(24749 23003 363988 701000)
+      :unmatched-syntax '((VARIABLE 15 . 21) (FUNCTION 32 . 40) (PAREN_BLOCK 40 . 62)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "payment.js"
+      :pointmax 1044
+      :fsize 1043
+      :lastmodtime '(24718 56846 647542 314000)
+      :unmatched-syntax '((VARIABLE 15 . 21) (FUNCTION 32 . 40) (PAREN_BLOCK 40 . 62)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "processCallHistory.js"
+      :pointmax 703
+      :fsize 722
+      :lastmodtime '(24534 22633 816112 188000)
+      :unmatched-syntax '((VARIABLE 15 . 21) (FUNCTION 32 . 40) (PAREN_BLOCK 40 . 62)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "customer.js"
+      :pointmax 2509
+      :fsize 2601
+      :lastmodtime '(24534 22633 816112 188000)
+      :unmatched-syntax '((VARIABLE 15 . 21) (FUNCTION 32 . 40) (PAREN_BLOCK 40 . 62)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "birthdayReminder.js"
+      :pointmax 730
+      :fsize 753
+      :lastmodtime '(24758 50929 535281 133000)
+      :unmatched-syntax '((VARIABLE 15 . 21) (FUNCTION 32 . 40) (PAREN_BLOCK 40 . 62) (STRING 3 . 15) (VARIABLE 17 . 23) (FUNCTION 34 . 42) (PAREN_BLOCK 42 . 64) (STRING 2 . 14) (VARIABLE 16 . 22) (FUNCTION 33 . 41) (PAREN_BLOCK 41 . 63) (VARIABLE 15 . 21) (FUNCTION 32 . 40) (PAREN_BLOCK 40 . 62)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags nil
+      :file "processHistory.js"
+      :pointmax 639
+      :fsize 638
+      :lastmodtime '(24534 22633 816112 188000)
+      :unmatched-syntax '((VARIABLE 15 . 21) (FUNCTION 32 . 40) (PAREN_BLOCK 40 . 62)))
+    (semanticdb-table "semanticdb-table"
+      :major-mode js-mode
+      :tags 
+        '( ("hashPassword" function (:arguments 
+              ( ("model" variable nil (reparse-symbol FormalParameterList) [2495 2500])
+                ("options" variable nil (reparse-symbol FormalParameterList) [2502 2509]))              ) nil [2472 3008]))          
+      :file "user.js"
+      :pointmax 3009
+      :fsize 3129
+      :lastmodtime '(24534 22633 816112 188000)
+      :unmatched-syntax '((VARIABLE 51 . 57) (FUNCTION 68 . 76) (PAREN_BLOCK 76 . 98) (VARIABLE 16 . 21) (VARIABLE 22 . 28) (PAREN_BLOCK 38 . 48) (VARIABLE 51 . 57) (FUNCTION 68 . 76) (PAREN_BLOCK 76 . 98) (VARIABLE 16 . 21) (VARIABLE 22 . 28) (PAREN_BLOCK 38 . 48) (VARIABLE 51 . 57) (FUNCTION 68 . 76) (PAREN_BLOCK 76 . 98) (VARIABLE 16 . 21) (VARIABLE 22 . 28) (PAREN_BLOCK 38 . 48))))
+  :file "!home!axius!server_prod!server!models!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")

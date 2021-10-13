@@ -1,0 +1,348 @@
+;; Object semanticdb-project-database-file
+;; SEMANTICDB Tags save file
+(semanticdb-project-database-file "semanticdb-project-database-file"
+  :tables
+  (list
+    (semanticdb-table "semanticdb-table"
+      :major-mode mhtml-mode
+      :tags 
+        '( ("Edson Daniel Advogados Associados" section nil nil [98 853])
+            ("Google Analytics: change UA-XXXXX-X to be your site's ID -->
+<script>
+    !function (A, n, g, u, l, a, r) {
+        A.GoogleAnalyticsObject = l, A[l] = A[l] || function () {
+                    (A[l].q = A[l].q || []).push(arguments)
+                }, A[l].l = +new Date, a = n.createElement(g),
+                r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+    }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');" section nil nil [853 1026])
+            ("!function (A, n, g, u, l, a, r) {
+        A.GoogleAnalyticsObject = l, A[l] = A[l] || function () {
+                    (A[l].q = A[l].q || []).push(arguments)
+                }, A[l].l = +new Date, a = n.createElement(g),
+                r = n.getElementsByTagName(g)[0], a.src = u, r.parentNode.insertBefore(a, r)
+    }(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-XXXXX-X');
+    ga('send', 'pageview');" section nil nil [1026 1574])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [1574 1637])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [1637 1717])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [1717 1789])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [1789 1852])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [1852 1912])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [1912 2000])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2000 2069])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2069 2133])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2133 2198])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2198 2273])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2273 2345])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2345 2411])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2411 2487])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2487 2569])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2569 2679])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2679 2785])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2785 2872])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2872 2960])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [2960 3054])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3054 3124])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3124 3204])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3204 3284])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3284 3360])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3360 3436])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3436 3514])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3514 3586])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3586 3664])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3664 3736])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3736 3818])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3818 3898])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3898 3985])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [3985 4073])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [4073 4188])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [4188 4305])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [4305 4426])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [4426 4559])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [4559 4668])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [4668 4789])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [4789 4908])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [4908 5021])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5021 5138])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5138 5249])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5249 5358])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5358 5424])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5424 5498])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5498 5579])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5579 5647])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5647 5718])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5718 5788])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5788 5870])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5870 5955])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [5955 6040])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [6040 6138])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [6138 6206])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [6206 6285])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [6285 6360])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [6360 6444])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [6444 6520])
+            ("endbower -->
+<!-- endbuild -->
+
+<script src=\"bower_components/fusioncharts/fusioncharts.js\">" section nil nil [6520 6635])
+            ("build:js({.tmp,app}) scripts/scripts.js -->
+<script src=\"scripts/jquery.playSound.js\">" section nil nil [6635 6755])
+            ("endbuild -->" section nil nil [6755 6807])
+            ("endbuild -->" section nil nil [6807 6851])
+            ("endbuild -->" section nil nil [6851 6912])
+            ("endbuild -->" section nil nil [6912 6964])
+            ("endbuild -->" section nil nil [6964 7010])
+            ("endbuild -->" section nil nil [7010 7056])
+            ("endbuild -->" section nil nil [7056 7102])
+            ("endbuild -->" section nil nil [7102 7141])
+            ("endbuild -->" section nil nil [7141 7199])
+            ("endbuild -->" section nil nil [7199 7239])
+            ("endbuild -->" section nil nil [7239 7288])
+            ("endbuild -->" section nil nil [7288 7350])
+            ("endbuild -->" section nil nil [7350 7414])
+            ("endbuild -->" section nil nil [7414 7461])
+            ("endbuild -->" section nil nil [7461 7512])
+            ("endbuild -->" section nil nil [7512 7565])
+            ("endbuild -->" section nil nil [7565 7617])
+            ("endbuild -->" section nil nil [7617 7669])
+            ("endbuild -->" section nil nil [7669 7728])
+            ("endbuild -->" section nil nil [7728 7796])
+            ("endbuild -->" section nil nil [7796 7864])
+            ("endbuild -->" section nil nil [7864 7927])
+            ("endbuild -->" section nil nil [7927 7987])
+            ("endbuild -->" section nil nil [7987 8045])
+            ("endbuild -->" section nil nil [8045 8112])
+            ("endbuild -->" section nil nil [8112 8174])
+            ("endbuild -->" section nil nil [8174 8228])
+            ("endbuild -->" section nil nil [8228 8289])
+            ("endbuild -->" section nil nil [8289 8358])
+            ("endbuild -->" section nil nil [8358 8424])
+            ("endbuild -->" section nil nil [8424 8484])
+            ("endbuild -->" section nil nil [8484 8553])
+            ("endbuild -->" section nil nil [8553 8627])
+            ("endbuild -->" section nil nil [8627 8702])
+            ("endbuild -->" section nil nil [8702 8776])
+            ("endbuild -->" section nil nil [8776 8848])
+            ("endbuild -->" section nil nil [8848 8916])
+            ("endbuild -->" section nil nil [8916 8979])
+            ("endbuild -->" section nil nil [8979 9044])
+            ("endbuild -->" section nil nil [9044 9103])
+            ("endbuild -->" section nil nil [9103 9157])
+            ("endbuild -->" section nil nil [9157 9214])
+            ("endbuild -->" section nil nil [9214 9272])
+            ("endbuild -->" section nil nil [9272 9328])
+            ("endbuild -->" section nil nil [9328 9386])
+            ("endbuild -->" section nil nil [9386 9448])
+            ("endbuild -->" section nil nil [9448 9506])
+            ("endbuild -->" section nil nil [9506 9561])
+            ("endbuild -->" section nil nil [9561 9623])
+            ("endbuild -->" section nil nil [9623 9682])
+            ("endbuild -->" section nil nil [9682 9738])
+            ("endbuild -->" section nil nil [9738 9790])
+            ("endbuild -->" section nil nil [9790 9840])
+            ("endbuild -->" section nil nil [9840 9894])
+            ("endbuild -->" section nil nil [9894 9942])
+            ("endbuild -->" section nil nil [9942 9990])
+            ("endbuild -->" section nil nil [9990 10040])
+            ("endbuild -->" section nil nil [10040 10096])
+            ("endbuild -->" section nil nil [10096 10145])
+            ("endbuild -->" section nil nil [10145 10192])
+            ("endbuild -->" section nil nil [10192 10240])
+            ("endbuild -->" section nil nil [10240 10295])
+            ("endbuild -->" section nil nil [10295 10351])
+            ("endbuild -->" section nil nil [10351 10409])
+            ("endbuild -->" section nil nil [10409 10459])
+            ("endbuild -->" section nil nil [10459 10509])
+            ("endbuild -->" section nil nil [10509 10564])
+            ("endbuild -->" section nil nil [10564 10618])
+            ("endbuild -->" section nil nil [10618 10678])
+            ("endbuild -->" section nil nil [10678 10741])
+            ("endbuild -->" section nil nil [10741 10806])
+            ("endbuild -->" section nil nil [10806 10870])
+            ("endbuild -->" section nil nil [10870 10955]))          
+      :file "index.html"
+      :pointmax 10955
+      :fsize 11138
+      :lastmodtime '(24573 50883 626922 487000)
+      :unmatched-syntax nil))
+  :file "!home!axius!client_prod!app!semantic.cache"
+  :semantic-tag-version "2.0"
+  :semanticdb-version "2.2")
